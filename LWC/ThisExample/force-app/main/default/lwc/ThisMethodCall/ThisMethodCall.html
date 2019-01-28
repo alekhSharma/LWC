@@ -1,0 +1,47 @@
+<template>
+<lightning-card>
+    <lightning-card>
+            <div class="slds-m-around_large">
+            <b><h1><i>THIS</i></h1></b>
+            <p>THIS reference to the object that is executing the current function</p>
+        </div>
+    </lightning-card>
+    <lightning-card>
+        <div class="slds-m-around_large">
+            <b><i>THIS</i> method (used in object)</b>
+            <p>If the function is part of an object
+            i.e. method, this reference that object itself.</p><br/>
+            <lightning-button onclick={MethodClick} label="Click Me"></lightning-button><br/>
+        </div>
+    </lightning-card>
+
+    <lightning-card>
+        <div class="slds-m-around_large">
+            <b><i>THIS</i> function (used in function)</b>
+            <p>If the function is not part of an object
+            i.e. regular function, this reference to global object which is window object.</p><br/>
+            <lightning-button onclick={functionClick} label="Click Me"></lightning-button><br/>
+        </div>
+    </lightning-card>
+
+    <lightning-card>
+        <div class="slds-m-around_large">
+            <b><i>THIS</i> Object Array iteration </b>
+            <p>We use forEach with callback function to iterate array. Inside Callback function 
+                <i>this</i> reference to window object and not to current object<br>
+                So we pass <i>this</i> as second argument to callback function to refer the current object
+            </p><br/>
+            <lightning-button onclick={arrayClick} label="Click Me"></lightning-button><br/>
+        </div>
+    </lightning-card>
+
+    <lightning-card>
+        <div class="slds-m-around_large">
+            Reference <br/>
+            Youtube : <p>https://www.youtube.com/watch?v=gvicrj31JOM</p>
+            Git     : <p></p>
+        </div>
+    </lightning-card>
+</lightning-card>
+
+</template>
