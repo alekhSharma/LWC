@@ -1,0 +1,55 @@
+<aura:component controller="customLookUpController" implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId,forceCommunity:availableForAllPageTypes,force:lightningQuickAction" access="global" >
+    <aura:attribute name="selectedLookUpRecord" type="sObject" default="{}"/>
+    <aura:attribute name="street" type="String" />
+    <aura:attribute name="city" type="String" />
+    <aura:attribute name="state" type="String" />
+    <aura:attribute name="country" type="String" />
+    <aura:attribute name="postal_code" type="String" />
+    <aura:attribute name="recordId" type="String" />
+    
+    <aura:handler name="AddressEvent" event="c:AddressEvent" action="{!c.displayAddress}" />
+    
+    <div class="slds-form slds-form_compound" style="background-color:white">
+        <fieldset class="slds-form-element slds-p-around_small">
+            <legend class="slds-form-element__label slds-text-title_caps slds-p-top_small" style="font-size: 1.2em;"><h3>Address</h3></legend>
+            <div class="slds-form-element__group">
+                <div class="slds-form-element__row">
+                    <div class="slds-form-element slds-size_1-of-1">
+                        <c:customLookup primarySearchField="place_id" secondarySearchField="description" IconName="standard:address" selectedRecord="{!v.selectedLookUpRecord}" label=""/>
+                    </div>
+                </div>
+                
+                <div class="slds-form-element__row">
+                    <div class="slds-form-element slds-size_1-of-1">
+                        <label class="slds-form-element__label" for="input-03">Street</label>
+                        <input type="text" id="input-03" class="slds-input" value="{!v.street}"/>
+                    </div>
+                </div>
+                <div class="slds-form-element__row">
+                    <div class="slds-form-element slds-size_2-of-3">
+                        <label class="slds-form-element__label" for="input-04">City</label>
+                        <input type="text" id="input-04" class="slds-input" value="{!v.city}"/>
+                    </div>
+                    <div class="slds-form-element slds-size_1-of-3">
+                        <label class="slds-form-element__label" for="input-05">State</label>
+                        <input type="text" id="input-05" class="slds-input" value="{!v.state}"/>
+                    </div>
+                </div>
+                <div class="slds-form-element__row">
+                    <div class="slds-form-element slds-size_2-of-3">
+                        <label class="slds-form-element__label" for="input-06">Postal Code</label>
+                        <input type="text" id="input-06" class="slds-input" value="{!v.postal_code}"/>
+                    </div>
+                    <div class="slds-form-element slds-size_1-of-3">
+                        <label class="slds-form-element__label" for="input-06">Country</label>
+                        <input type="text" id="input-06" class="slds-input" value="{!v.country}"/>
+                    </div>
+                </div>
+            </div>
+        </fieldset>
+        <footer class="slds-card__footer">
+            <lightning:button name="Save" label="Save" variant="brand" onclick="{!c.saveAddress}"/>
+        </footer>
+        
+    </div>
+</aura:component>

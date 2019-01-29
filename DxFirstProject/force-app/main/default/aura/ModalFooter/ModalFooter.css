@@ -1,0 +1,8 @@
+.THIS .progressClass{
+    margin-left:0px;
+}
+.THIS .customBadgeClass{
+    width: 50px !important;
+    display: inline-block;
+    text-align: center;
+}

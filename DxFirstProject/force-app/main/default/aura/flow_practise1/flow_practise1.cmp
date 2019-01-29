@@ -1,0 +1,10 @@
+<aura:component >
+      <aura:attribute name="accountName" type="String" />
+   <aura:attribute name="numberOfEmployees" type="Decimal" />
+                            
+   <p><lightning:formattedText value="{!v.accountName}" /></p>
+   <p><lightning:formattedNumber style="decimal" value="{!v.numberOfEmployees}" /></p>
+    
+	 <aura:handler name="init" value="{!this}" action="{!c.init}" />
+     <lightning:flow aura:id="flowData"  onstatuschange="{!c.handleStatusChange}" />
+</aura:component>

@@ -1,0 +1,4 @@
+<design:component >
+    <design:attribute name="loginFlow" Label="Login Flow"/>
+    <design:attribute name="flowCompleted" Label="Flow Completed"/>
+</design:component>

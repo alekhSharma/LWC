@@ -1,0 +1,9 @@
+<aura:component controller="ContactController">
+     
+    <ltng:require scripts="/resource/ReactSearch"
+                  styles="/resource/SLDS0122/assets/styles/salesforce-lightning-design-system-ltng.css"
+                  afterScriptsLoaded="{!c.reactInit}"/>
+     
+    <div aura:id="container"/>
+     
+</aura:component>

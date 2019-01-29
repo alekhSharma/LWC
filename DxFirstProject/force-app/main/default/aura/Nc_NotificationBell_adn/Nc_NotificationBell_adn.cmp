@@ -1,0 +1,71 @@
+<aura:component implements="flexiPage:availableForAllPageTypes,forceCommunity:availableForAllPageTypes,lightning:availableForFlowScreens" 
+                controller="Nc_NotificationBellController_adn" access="global">
+    <!-- Libraries Used -->
+	<!-- Overlay Library is not used, as we don't want below features:
+		- Escape on close
+	-->
+    
+    <aura:attribute name="cssStyle" type="String" />
+    <style>
+        {!v.cssStyle}
+    </style>
+    
+    <!-- Define aura attribute - Start -->
+    <aura:attribute name="loginFlow" type="boolean" default="false" access="global"/>
+    <aura:attribute name="flowCompleted" type="boolean" default="false" access="global"/>
+    <aura:attribute name="orgId" type="String"/>
+    <aura:attribute name="notifications" type="list"/>
+    <aura:attribute name="progressSteps" type="list"/>
+    <aura:attribute name="hasNext" type="boolean" default="false"/>
+    <aura:attribute name="hasPrevious" type="boolean" default="false"/>
+    <aura:attribute name="showClose" type="boolean" default="false"/>
+    <aura:attribute name="currentStep" type="String"/>
+    <!-- Internal Attributes -->
+    <aura:attribute name="notificationIndex" type="integer"/>
+    <aura:attribute name="notification" type="Nc_Notification__c"/>
+    <aura:attribute name="isValid" type="boolean" default="true"/>
+    <!-- Define aura attribute - End -->
+    
+    <!-- Define aura handlers here - Start -->
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}"/>
+    <aura:handler name="notificationEvent" event="c:Nc_NotificationEvent_adn" action="{!c.handleNotificationEvent}"/>
+    <!-- Define aura handlers here - End -->
+    
+    <!--<lightning:button label="Show Notifications" onclick="{!c.doInit}"/>-->
+    
+    <div aura:id="NotificationContainer" role="dialog" tabindex="-1" class="slds-modal">
+        <div class="slds-modal__container">
+            <div class="slds-modal__header">
+                <aura:if isTrue="{!v.showClose}">
+                    <button class="slds-button slds-modal__close " title="Close" onclick="{!c.toggleDialog}">
+                        <lightning:icon iconName="utility:close" variant="bare" size="small"></lightning:icon>
+                        <span class="slds-assistive-text">Close</span>
+                    </button>
+                </aura:if>
+                <c:ModalHeader title="{!v.notification.notificationRecord.title}" 
+                               progressSteps="{!v.progressSteps}" currentStep="{!v.currentStep}"/>
+                <!-- Section for Error Message - Start -->
+                <aura:if isTrue="{!not(v.isValid)}">
+                    <ui:message title="Acceptance Error:" severity="error" closable="false"
+                                class="errorMessageClass">
+                        {!$Label.c.Nc_AcceptanceError}
+                    </ui:message>
+                </aura:if>
+                <!-- Section for Error Message - End -->
+            </div>
+            <div class="slds-modal__content slds-p-around--medium slds-grid slds-wrap slds-grid--align-spread">
+                <article class="slds-card" style="width:100%">
+                    <!-- Show edit form, if stage is 0 -->
+                    <c:Nc_NotificationBellContent_adn aura:id="nbc" orgId="{!v.orgId}"
+                                                  notification="{!v.notification}" notificationIndex="{!v.notificationIndex}"/>
+                </article>
+            </div>
+            <div class="slds-modal__footer">
+                <c:ModalFooter hasNext="{!v.hasNext}" hasPrevious="{!v.hasPrevious}"
+                               currentStepIndex="{!v.notificationIndex+1}" totalStepsIndex="{!v.progressSteps.length}"
+                               showClose="{!v.showClose}"/>
+            </div>
+        </div>
+    </div>
+    <div aura:id="overlay" class="slds-backdrop"></div>
+</aura:component>

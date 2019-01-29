@@ -1,0 +1,28 @@
+<apex:page standardController="Account" cache="true" recordSetVar="accounts" extensions="CSVDirect" language="en-US" contentType="application/vnd.ms-excel#AccountData{!TODAY()}.xls"> 
+    <html>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+          <body>      
+			<apex:form > 
+                <table border="1">
+                    <tr>
+                        Accounts
+                    </tr>
+                    <!-- Header for the table -->
+                    <tr>
+                        <apex:repeat value="{!columnName}" var="colName1">
+                            <td> {!colName1} </td>
+                        </apex:repeat>  
+                    </tr>
+         			<!-- Data for the table -->
+                    <apex:repeat value="{!allRecords}" var="records">
+                        <tr>    
+                            <apex:repeat value="{!records}" var="rec">
+                                 <td> {!rec}    </td>       
+                            </apex:repeat>
+                        </tr> 
+                    </apex:repeat>
+                </table>
+      		</apex:form>
+         </body>     
+    </html>
+</apex:page>

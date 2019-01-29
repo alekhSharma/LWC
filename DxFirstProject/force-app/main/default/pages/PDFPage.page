@@ -1,0 +1,7 @@
+<apex:page controller="VFPageController" showHeader="false" cache="true" contentType="application/pdf#FileName.pdf">
+	<html>
+       <body>
+          Hello
+        </body>
+    </html>
+</apex:page>

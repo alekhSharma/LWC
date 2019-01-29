@@ -1,0 +1,4 @@
+<aura:component >
+	<p>First Lightning !!</p>
+    <c:hellomessage message="Alekh"/>
+</aura:component>

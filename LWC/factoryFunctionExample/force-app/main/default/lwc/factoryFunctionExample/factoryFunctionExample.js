@@ -12,7 +12,7 @@ export default class FactoryFunctionExample extends LightningElement {
     // Factory Function
     createPerson(name){
         return {
-            // name : name | in JS if key value pair is same, we can use this shorthand
+            // name : name | in JS if key value pair is same, we can use this shorthand 
             name,
             namePerson(){
                 console.log(this.name);

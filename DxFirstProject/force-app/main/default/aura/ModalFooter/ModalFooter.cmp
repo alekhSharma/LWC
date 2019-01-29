@@ -1,0 +1,41 @@
+<aura:component >
+    <!-- Libraries Used -->
+    <lightning:overlayLibrary aura:id="overlayLibraryRef"/>
+    
+    <!-- Define aura attribute - Start -->
+    <aura:attribute name="currentStepIndex" type="Integer"/>
+    <aura:attribute name="totalStepsIndex" type="Integer"/>
+    <aura:attribute name="hasNext" type="boolean" default="false"/>
+    <aura:attribute name="hasPrevious" type="boolean" default="false"/>
+    <aura:attribute name="showClose" type="boolean" default="false"/>
+    <!-- Define aura attribute - End -->
+    
+	<!-- Register Event - Start -->    
+    <aura:registerEvent name="notificationEvent" type="c:Nc_NotificationEvent_adn"/>
+    <!-- Register Event - End -->
+    
+    <div class="slds-grid">
+        <div class="slds-align-middle">
+        	<!-- First layout contents -->
+            <!-- Show badge only if total number of steps is greater than 1 -->
+            <aura:if isTrue="{!v.totalStepsIndex>1}">
+                <span class="slds-badge customBadgeClass">{!v.currentStepIndex}/{!v.totalStepsIndex}</span>
+            </aura:if>
+        </div>
+        <div class="slds-col">
+            <!-- Button here -->
+            <lightning:button iconName="utility:dock_panel" iconPosition="left" variant="neutral"
+                              label="{!$Label.c.Nc_Close}" name="close"
+                              onclick="{!c.handleAction}" class="{!if(v.showClose,'','slds-hide')}"/>
+            <lightning:button iconName="utility:chevronleft" iconPosition="right" variant="brand"
+                              label="{!$Label.c.Nc_Previous}" name="previous" class="{!if(v.hasPrevious==false,'slds-hide','')}"
+                              onclick="{!c.handleAction}"/>
+            <lightning:button iconName="utility:chevronright" iconPosition="right" variant="brand"
+                              label="{!$Label.c.Nc_Next}" name="next" class="{!if(v.hasNext==false,'slds-hide','')}"
+                              onclick="{!c.handleAction}"/>
+            <lightning:button iconName="utility:save" iconPosition="right" variant="brand"
+                              label="{!$Label.c.Nc_Save}" name="save" class="{!if(v.hasNext==true,'slds-hide','')}"
+                              onclick="{!c.handleAction}"/>
+        </div>
+    </div>
+</aura:component>

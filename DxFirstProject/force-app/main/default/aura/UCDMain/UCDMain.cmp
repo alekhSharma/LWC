@@ -1,0 +1,258 @@
+<aura:component controller="UCD_UnusedMethodProcessLighting" implements="flexipage:availableForAllPageTypes" access="global">
+    
+    <!--ltng:require scripts="{!$Resource.UCD_jquery + '/js/jquery-1.7.2.min.js'}" />
+    <ltng:require scripts="{!$Resource.UCD_jquery + '/js/jquery-ui-1.8.20.custom.min.js'}" /-->
+    <ltng:require scripts="{!$Resource.UCD_charts_js}"/>
+    
+    <aura:handler name="init" action="{!c.doInit}" value="{!this}"></aura:handler>
+    
+    <aura:attribute name="totalClass" type="Integer" default="0"/>
+    <aura:attribute name="totalTriggers" type="Integer" default="0" />
+    <aura:attribute name="containerId" type="String" />
+    <aura:attribute name="listAllMethods" type="List" />
+    <aura:attribute name="methodCounter" type="Integer" default="1" />
+    <aura:attribute name="asyncRequestId" type="String" />
+    <aura:attribute name="callAsyncRequest" type="boolean" default="false" /> 
+    <aura:attribute name="listApexClasses" type="List" />
+    <aura:attribute name="asyncReqStatus" type="boolean" default="false" />
+    <aura:attribute name="IsAuthonticated" type="string" default="null"/>
+    <aura:attribute name="unauthorizedendpoint" type="String" />
+    <aura:attribute name="attachment" type="string" /> 
+    <aura:attribute name="EmailSending" type="boolean" default="false" /> 
+    <aura:attribute name="stage" type="string" /> 
+    
+    <div style="background-color: white;">
+        <div id="divSiteTemplate" style="margin-bottom:1%;">   
+            
+            <div class="slds-grid slds-gutters">
+                <div class="slds-col">
+                    <span>
+                        
+                        <div class="slds-media">
+                            <div class="slds-media__figure">
+                                <!--img  style="max-width: 30%;height: auto;" class="slds-float_left" src="/logos/Standard/default/logo.svg"/-->
+                            </div>
+                            <div class="slds-media__body">
+                                <h1 class="slds-page-header__title slds-truncate slds-align-middle" title="Find the potantial unused method from the org">Unused Method Detector Application</h1>
+                                <p class="slds-text-body_small slds-line-height_reset">Find the potential unused method from the org.</p>
+                            </div>
+                        </div>    
+                        
+                    </span>
+                </div>
+                <div class="slds-col">
+                    <span></span>
+                </div>
+                <div class="slds-col">
+                    <span>
+                        <img src="{!$Resource.UCD_logo}" style="max-width: 30%;height: auto;" class = "slds-float_right"/>
+                    </span>
+                </div>
+            </div>
+            
+            
+            <div style="height: 1rem;">
+                <div class="slds-context-bar">
+                    <nav class="slds-context-bar__secondary" role="navigation">
+                        <ul class="slds-grid">
+                            <li aura:id="liReadMe" class="slds-context-bar__item slds-is-active" style="width: 100px;">
+                                <a href="javascript:void(0);" class="slds-context-bar__label-action" title="Home" onclick="shoereadme();">
+                                    
+                                    <span class="slds-truncate" title="Home" onclick="{!c.shoereadme}">Read Me</span> 
+                                </a>
+                            </li>
+                            <li aura:id="liAnalytics" style="width: 100px;" class="slds-context-bar__item slds-context-bar__dropdown-trigger slds-dropdown-trigger slds-dropdown-trigger_hover">
+                                <a href="javascript:void(0);" class="slds-context-bar__label-action" title="Menu Item" onclick="showAnalytics();">
+                                    <span class="slds-truncate" title="Menu Item" onclick="{!c.showAnalytics}">Analytics</span>
+                                </a>
+                            </li>
+                            <li aura:id="liEmail" style="width: 100px;" class="slds-context-bar__item">
+                                <a href="javascript:void(0);" class="slds-context-bar__label-action" title="Menu Item" onclick="showEmail();">
+                                    <span class="slds-truncate" title="Menu Item" onclick="{!c.showEmail}" >Email</span>
+                                </a>
+                            </li>  
+                            
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <!-- Start Readme-->
+            <div  aura:id="divReadme">
+                <div class="demo-only">
+                    <section role="dialog" tabindex="-1" aria-labelledby="modal-heading-01" aria-modal="true" aria-describedby="modal-content-id-1" class="slds-modal slds-fade-in-open">
+                        <div class="slds-modal__container">
+                            <header class="slds-modal__header">
+                                <button class="slds-button slds-button_icon slds-modal__close slds-button_icon-inverse" title="Close" onclick="{!c.closeReadMe}">
+                                    <img src="{!$Resource.UCD_slds_icon+'/utility/close_60.png'}" /> 
+                                    <span class="slds-assistive-text">Close</span>
+                                </button>
+                                <div class="slds-grid slds-einstein-header slds-popover__header">
+                                    <h2 id="modal-heading-01" class="slds-text-heading_medium slds-hyphenate">Read Me</h2>
+                                    <header class="slds-media slds-media_center slds-has-flexi-truncate">
+                                        <div class="slds-grid slds-grid_vertical-align-center slds-size_3-of-4 slds-medium-size_2-of-3">
+                                            <div class="slds-media__body">
+                                                <h2 class="slds-truncate" id="dialog-heading-id-4" title="Einstein">
+                                                    
+                                                </h2>
+                                            </div>
+                                        </div>
+                                        <div class="slds-einstein-header__figure slds-size_1-of-4 slds-medium-size_1-of-3"></div>
+                                    </header>
+                                </div>
+                            </header>
+                            <div class="slds-modal__content slds-p-around_medium" id="modal-content-id-1">
+                                <!-- <div id = "emailmsg"><p> Email has been sent!!</p> </div> -->
+                                <p>{Place Holder for Read Me Text @Vijay please suggest}.</p>
+                            </div>
+                        </div>
+                    </section>
+                    <div class="slds-backdrop slds-backdrop_open"></div>
+                </div>
+                
+            </div>  <!-- End Readme-->
+        </div>
+        {!v.body}
+        <div aura:id="divUCD">
+            <div aura:id="divMethodTable">
+                <div id="divOrgDetails" style="margin-top: 25px;width: 100%;margin-bottom: 29px;">
+                    <br/>
+                    <div style="width:100%;">
+                        <div class="slds-text-heading_large" style="width:50%;">Org Info</div>
+                        <div style="width:50%;float: left;">
+                            <table  class="slds-table slds-table_bordered slds-table_cell-buffer slds-table_col-bordered" style="padding-left:3px;">
+                                <thead>
+                                    <tr class="slds-text-title_caps" >
+                                        <th scope="col" style="background-color: aliceblue;">
+                                            <div class="slds-truncate" title="UniqueId">Total Apex Classes</div>
+                                        </th>
+                                        <th scope="col" style="background-color: aliceblue;">
+                                            <div class="slds-truncate" title="Key">Total Apex Triggers</div>
+                                        </th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th scope="row" data-label="UID">
+                                            <div class="slds-truncate" title="UID">{!v.totalClass}</div>
+                                        </th>
+                                        <td data-label="Key">
+                                            <div class="slds-truncate" title="Key">{!v.totalTriggers}</div>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div style="width:50%;float: right; margin-top: 10px;">
+                            <label class="slds-text-heading_large" style="float: left; margin-left: 300px;">Download CSV </label>
+                            <button class="slds-button slds-button_neutral"  style="float: right;margin-right: 77px;" onclick="{!c.downloadCsv}">Export
+                                <!--<img src="{!$Resource.slds_icon+'/utility/close_60.png'}" />  -->
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <br/><br/><br/>
+                <div>
+                    <div class="slds-text-heading_large" style="width:50%;">Org Used Unused Mehtod Details</div>
+                    <table class="slds-table slds-table_bordered slds-table_cell-buffer" style="padding-left:3px;padding-right:3px;">
+                        <thead>
+                            <tr class="slds-text-title_caps" >
+                                <th scope="col" style="background-color: aliceblue;">
+                                    <div class="slds-truncate"  title="UniqueId">Sr No.</div>
+                                </th>
+                                <th scope="col" style="background-color: aliceblue;">
+                                    <div class="slds-truncate" title="Key">Key</div>
+                                </th>
+                                <th scope="col" style="background-color: aliceblue;">
+                                    <div class="slds-truncate" title="Line No.">#Line No</div>
+                                </th>
+                                <th scope="col" style="background-color: aliceblue;">
+                                    <div class="slds-truncate" title="Class">Class</div>
+                                </th>
+                                <th scope="col" style="background-color: aliceblue;">
+                                    <div class="slds-truncate" title="Used">Used</div>
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <aura:iteration items="{!v.listAllMethods}" var="item">
+                                <tr class="{!item.isUsed==true? true : false}">
+                                    <th scope="row" data-label="UID">
+                                        <div class="slds-truncate" title="UID">{!item.uniqueId}</div>
+                                    </th>
+                                    <td data-label="Key">
+                                        <div class="slds-truncate" title="Key">{!item.key}</div>
+                                    </td>
+                                    <td data-label="locationLineNo">
+                                        <div class="slds-truncate" title="locationLineNo">{!item.locationLineNo}</div>
+                                    </td>
+                                    <td data-label="className">
+                                        <div class="slds-truncate" title="className">{!item.className}</div>
+                                    </td>
+                                    <td data-label="isUsed">
+                                        <div class="slds-truncate" title="20%">{!item.isUsed}</div>
+                                    </td>
+                                </tr>
+                                
+                            </aura:iteration>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            
+            <div aura:id="divAnalytics">
+                <aura:if isTrue="{!v.asyncReqStatus}"> 
+                    <div class="slds-grid slds-wrap slds-grid--pull-padded ">
+                        <div class="slds-box" style="width: 100%;">
+                            <c:UCD_Charts totalClassCount="{!v.totalClass}" totalTriggersCount="{!v.totalTriggers}" listAllMethodsChart="{!v.listAllMethods}" />
+                        </div>
+                    </div>
+                </aura:if> 
+            </div>
+            
+            <div aura:id="divEmail">
+                <aura:if isTrue="{!v.EmailSending}"> 
+                    <c:UCD_Email listAllMethods="{!v.attachment}"/>
+                </aura:if>
+                
+            </div>
+            <div style="height:50px;">
+                
+            </div>
+            
+            <!-- OverLay-->
+            
+            <div class="demo-only" aura:id="overlay">
+                <section role="dialog" tabindex="-1" aria-labelledby="modal-heading-01" aria-modal="true" 
+                         aria-describedby="modal-content-id-1" class="slds-modal slds-fade-in-open">
+                    <div class="slds-modal__container" style="align-items: center;align-content: center;">
+                        
+                        <div class="slds-modal__content slds-p-around_medium" id="modal-content-id-1" style="
+                                                                                                             background-color: rgb(112, 110, 107);
+                                                                                                             border-radius: 5px;
+                                                                                                             color: white;
+                                                                                                             font-weight: 800;
+                                                                                                             font-size: 18px;
+                                                                                                             text-align: center;
+                                                                                                             width: 50%;
+                                                                                                             ">
+                            
+                            <div class="demo-only demo--inverse" style="height: 6rem;">
+                                <div role="status" class="slds-spinner slds-spinner_medium">
+                                    <span class="slds-assistive-text">Loading</span>
+                                    <div class="slds-spinner__dot-a"></div>
+                                    <div class="slds-spinner__dot-b"></div>
+                                </div>
+                            </div>
+                            <span>Processing... {!v.stage}</span>
+                            
+                        </div>
+                    </div>
+                </section>
+                <div class="slds-backdrop slds-backdrop_open"></div>
+            </div>
+            
+        </div>
+    </div>
+    
+    <!-- Overlay End-->    
+</aura:component>

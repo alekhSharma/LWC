@@ -1,0 +1,46 @@
+<!--
+          ** Component Details***
+         Name: DisplayPositions
+         Type: Lightning Component 
+         Purpose: Component to display position records
+-->
+<aura:component controller="DisplayPosition" 
+implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId" access="global" >
+ <ltng:require styles="/resource/bootstrap/css/bootstrap.min.css"></ltng:require>
+
+    <aura:attribute name="lstPositions" type="CommonWrapperClass.DisplayPositionRecords[]" />	
+    
+    <!--- on initialization of component init event will fire and doInit action will execute-->
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}" />
+    
+    
+    <div class="container">
+        <h2>Postions</h2>
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th></th>
+                    <th>Position</th>
+                    <th>Status</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- TO Check if list is not empty-->
+                <aura:if isTrue="{!!empty(v.lstPositions)}">
+                    <aura:iteration var="position" items="{!v.lstPositions}" >
+                        <tr>
+                            <td><ui:inputCheckbox value="{!position.isSelected}"/></td>
+                            <td><ui:outputText value="{!position.Id}"/></td>
+                            <td><ui:outputText value="{!position.Name}"/></td>
+                        </tr>
+                    </aura:iteration>
+                </aura:if>
+            </tbody>
+        </table>
+		<!--newly button added for export records-->
+        <ui:button class="btn btn-default" press="{!c.export}">Download Selected Records</ui:button>
+        <ui:button class="btn btn-default" press="{!c.doSomething}">Perform Action</ui:button>
+        
+    </div>
+    
+</aura:component>

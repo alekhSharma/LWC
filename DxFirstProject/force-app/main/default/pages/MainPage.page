@@ -1,0 +1,37 @@
+<apex:page controller="VFPageController">
+     <apex:includeLightning />
+
+    <apex:form >
+        
+            <apex:inputhidden id="hidData" value="{!PDFData}"/>
+            <apex:actionfunction name="jsGeneratePDF" action="{!downloadPDF}" />   
+        
+         </apex:form>
+	
+            <script>
+               function saveData(data, callback){
+                         //bind lightning component data to page component
+                    var hidData = document.getElementById('{!$Component.hidData}')
+                    hidData.value = JSON.stringify(data);
+                
+                    //invoke PDF Generation
+                    jsGeneratePDF();
+                 
+                    //invoke callback;
+                    if(typeof callback == 'function') callback();
+                }
+                
+                $Lightning.use("DemoApp", function() {
+                    $Lightning.createComponent("PDFGenertorExample",
+                    { 
+                        sendData : saveData
+                    },
+                    "lightning",
+                    function(cmp) {
+                        // do some stuff
+                    });
+                });
+            </script>
+        
+    
+</apex:page>

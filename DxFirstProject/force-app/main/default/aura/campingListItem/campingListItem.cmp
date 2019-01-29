@@ -1,0 +1,20 @@
+<aura:component >
+    <aura:attribute name="item" type="Camping_Item__c[]"/>
+    <aura:attribute name="newItem" type="Camping_Item__c"/>
+
+		 <p class="slds-text-heading--medium slds-p-horizontal--small">
+           Name: <lightning:input Type="text" value="{!v.newItem.Name}" aura:id="name"/>
+        </p>
+        <p class="slds-text-heading--medium slds-p-horizontal--small">
+           price: <lightning:formattedNumber value="{!v.newItem.Price__c}" style="currency" aura:id="name"/>
+        </p>
+    	<p class="slds-text-heading--medium slds-p-horizontal--small">
+           Quantity: <lightning:input value="{!v.newItem.Quantity__c}" type="number" aura:id="name"/>
+        </p>
+       <p class="slds-text-heading--medium slds-p-horizontal--small">
+           Packed: <lightning:input value="{!v.newItem.Packed__c}" type="checkbox" aura:id="name"/>
+        </p>
+        <p>
+            <lightning:button onclick="{!c.clickReimbursed}"/>
+        </p>
+</aura:component>

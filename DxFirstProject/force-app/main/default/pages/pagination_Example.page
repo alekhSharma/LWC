@@ -1,0 +1,14 @@
+<apex:page Controller="paginationcontroller" sidebar="false" showHeader="false"> 
+<apex:pageBlock id="page">
+    <apex:form >
+      <apex:pageBlockTable value="{!ContactLists}" var="a" width="200px" rows="10" id="table">
+        <apex:column >
+            <apex:inputField value="{!a.PName__c}"></apex:inputField>	
+          </apex:column>
+         
+      </apex:pageBlockTable>
+        <apex:commandButton action="{!EmptyRecordPR}" title="Previous 5" value="Previous 5" rerender="table"/>
+         <apex:commandButton action="{!createEmptyRecordPR}" title="next 5" value="Next 5" rerender="table"/>
+    </apex:form>
+  </apex:pageBlock>
+</apex:page>

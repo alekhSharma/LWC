@@ -1,0 +1,15 @@
+<apex:page standardController="Account" recordSetVar="accounts" extensions="CSVDirect">
+    <script>
+	 	var url	= '{!urlvalue}';
+    
+    	<!-- 50 millisecond timeout to redirect to vf page where csv will be downloaded -->
+     	setTimeout(function (){ 
+            	window.location		='/apex/AccountList?filterName%3D'+url
+        		}, 50);
+    
+    	<!-- 100 millisecond timeout to redirect back to the original url along with filterName -->
+     	setTimeout(function (){ 
+            	this.parent.location='/one/one.app#/sObject/Account/list?filterName='+url 
+        		}, 100);
+    </script>
+</apex:page>

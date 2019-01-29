@@ -1,0 +1,62 @@
+<aura:component controller="Nc_NotificationBellController_adn">
+	<!-- Define aura attribute - Start -->
+    <aura:attribute name="notification" type="Object"/>
+    <aura:attribute name="notificationIndex" type="Integer"/>
+    <aura:attribute name="orgId" type="String"/>
+    <!-- Internal Attributes -->
+    <aura:attribute name="notificationList" type="list"/><!-- Notificationlist contains all records of notification along with indexes -->
+    <aura:attribute name="notificationResponse" type="Object"/>
+    <!-- Define aura attribute - End -->
+    
+    <!-- Define aura hanlders - Start -->
+    <aura:handler name="change" value="{!v.notificationIndex}" action="{!c.setupComponentInstance}"/>
+    <!-- Define aura hanlders - End -->
+    
+    <!-- Define aura methods - component api - Start -->
+    <aura:method name="reset" action="{!c.reset}" access="public"/>
+    <aura:method name="saveRecords" action="{!c.saveNotificationRecords}" access="public"/>
+    <aura:method name="showHideSpinner" action="{!c.showHideSpinner}" access="public"/>
+    <aura:method name="checkValid" action="{!c.checkValid}" access="public"/>
+    <!-- Define aura methods - component api - End -->
+    
+    <!-- Register Ltng Events - Start -->
+    <aura:registerEvent name="notificationEvent" type="c:Nc_NotificationEvent_adn"/>
+    <!-- Register Ltng Events - End -->    
+    
+    <lightning:spinner aura:id="notificationSpinner" variant="brand"/>
+    <!-- Display Messages -->
+    <aura:if isTrue="{!not(empty(v.notification.notificationRecord.relDoc))}">
+        <img 
+             src="{!'/servlet/servlet.ImageServer?oid='+v.orgId+'&amp;id='+v.notification.notificationRecord.relDoc}"/>
+    </aura:if>
+    <lightning:formattedRichText value="{!v.notification.notificationRecord.message}"/>
+
+    <!-- Show Controls -->
+    <div class="slds-border_top slds-p-top_small" style="width: 100%;">
+        <aura:if isTrue="{!v.notification.type.DeveloperName=='Acceptance'}">
+            <!-- Accept/Reject components -->
+            <div class="slds-grid">
+                <div>
+                    <lightning:input name="acceptance" type="radio" label="I Accept" aura:id="select"
+                                     onchange="{!c.recordResponse}" checked="{!if(v.notificationResponse.Acceptance==true,true,false)}"/>
+                </div>
+                <div>
+                    <lightning:input name="acceptance" type="radio" label="I Reject" aura:id="deSelect"
+                                     onchange="{!c.recordResponse}" checked="{!if(v.notificationResponse.Acceptance==false,true,false)}"/>
+                </div>
+            </div>
+            <aura:set attribute="else">
+                <!-- Else components -->
+                <label class="slds-checkbox slds-p-left--xx-small slds-p-right--xx-small">
+                    <ui:inputCheckbox aura:id="doNotRemind" value="{!v.notificationResponse.Do_not_Remind}"
+                                      change="{!c.recordResponse}"/>
+                    <span class="slds-checkbox--faux fontStyle"></span>
+                    <span class="slds-form-element__label fontStyle"></span>
+                </label>
+                <span class="slds-align-middle">
+                    &nbsp;Do Not Remind
+                </span>
+            </aura:set>
+        </aura:if>
+    </div>
+</aura:component>
