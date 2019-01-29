@@ -1,3 +1,0 @@
-<aura:component >
-	<ui:button label="parse" press="{!c.myAction}"></ui:button>
-</aura:component>

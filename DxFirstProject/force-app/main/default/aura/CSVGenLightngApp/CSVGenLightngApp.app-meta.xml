@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<AuraDefinitionBundle xmlns="http://soap.sforce.com/2006/04/metadata">
-    <apiVersion>41.0</apiVersion>
-    <description>This App is created for export data in CSV format.</description>
-</AuraDefinitionBundle>

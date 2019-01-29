@@ -1,9 +1,0 @@
-<aura:component >
-    <aura:attribute name="message" type="string"/>
-    <p>Hello! {!v.message}
-       
-    	<aura:iteration items="{!v.items}" var="a">
-                    <c:campingListItem item="{!a}"/>
-                </aura:iteration>
-</p>
-</aura:component>
