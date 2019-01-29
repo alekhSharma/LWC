@@ -1,0 +1,22 @@
+<template>
+    <lightning-card>
+        <div class="slds-m-around_large">
+            <h1><b>Factory Function in JS</b></h1>
+            <p>
+            A factory function is any function which is not a class or constructor that returns a (presumably new) object.
+            </p>
+            <hr>
+            <p>Normal function Call</p>
+            <p>Created a object and called using 'this' operator.</p><br>
+            <lightning-button onclick={NormalClick} label="Click Me"></lightning-button>
+            <hr>
+            <p>Factory function Call</p>
+            <p>Created a function to return a newly created object to us.</p><br>
+            <lightning-button onclick={FactoryClick} label="Click Me"></lightning-button>
+        </div>
+
+
+    </lightning-card>
+
+    
+</template>
