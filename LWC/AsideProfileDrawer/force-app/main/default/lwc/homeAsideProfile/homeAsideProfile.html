@@ -1,0 +1,29 @@
+<template>
+    
+    <lightning-card title="Profile Information">
+        <div class="slds-m-around_medium">
+            <template if:true={account}>
+            <div>    
+                <img
+                    src={image}
+                    alt="Profile photo"
+                />
+                <span class="slds-m-left_medium">{name}</span> 
+                <span class="slds-m-left-medium">
+                    <lightning-button class="slds-float_right" label="Edit" icon-name="action:edit" onclick={profileEditButton}>
+                        </lightning-button>
+
+                </span>
+            </div>
+            <div class="slds-m-around_medium">
+      
+                    <lightning-button class="slds-align_absolute-center" label="Add New Member" icon-name="utility:add" onclick={addMemberButton}>
+                    </lightning-button>
+              
+            </div>
+
+        </template>
+        </div>
+    </lightning-card>
+
+</template>
