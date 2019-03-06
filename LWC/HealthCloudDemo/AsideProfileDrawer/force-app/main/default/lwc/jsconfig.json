@@ -3,8 +3,8 @@
         "experimentalDecorators": true,
         "baseUrl": ".",
         "paths": {
-            "c/getter-setter-js-example": [
-                "getterSetterJsExample/getterSetterJsExample.js"
+            "c/home-aside-profile": [
+                "homeAsideProfile/homeAsideProfile.js"
             ]
         }
     },

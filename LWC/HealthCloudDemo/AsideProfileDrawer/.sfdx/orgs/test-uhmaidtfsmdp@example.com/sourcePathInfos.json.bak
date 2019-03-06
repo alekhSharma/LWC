@@ -1,0 +1,162 @@
+[
+    [
+        "C:\\Alekh313\\HealthCloudDemo\\HealthCloudDemo\\force-app",
+        {
+            "sourcePath": "C:\\Alekh313\\HealthCloudDemo\\HealthCloudDemo\\force-app",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1551806360139,
+            "changeTime": 1551806360139,
+            "contentHash": "b28b7af69320201d1cf206ebf28373980add1451",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": true
+        }
+    ],
+    [
+        "C:\\Alekh313\\HealthCloudDemo\\HealthCloudDemo\\force-app\\main",
+        {
+            "sourcePath": "C:\\Alekh313\\HealthCloudDemo\\HealthCloudDemo\\force-app\\main",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1551806360139,
+            "changeTime": 1551806360139,
+            "contentHash": "7505d64a54e061b7acd54ccd58b49dc43500b635",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Alekh313\\HealthCloudDemo\\HealthCloudDemo\\force-app\\main\\default",
+        {
+            "sourcePath": "C:\\Alekh313\\HealthCloudDemo\\HealthCloudDemo\\force-app\\main\\default",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1551806360141,
+            "changeTime": 1551806360141,
+            "contentHash": "7334b1e8716ee057f8863fce77d3933d5bd9d984",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Alekh313\\HealthCloudDemo\\HealthCloudDemo\\force-app\\main\\default\\aura",
+        {
+            "sourcePath": "C:\\Alekh313\\HealthCloudDemo\\HealthCloudDemo\\force-app\\main\\default\\aura",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1551806360140,
+            "changeTime": 1551806360140,
+            "contentHash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Alekh313\\HealthCloudDemo\\HealthCloudDemo\\force-app\\main\\default\\lwc",
+        {
+            "sourcePath": "C:\\Alekh313\\HealthCloudDemo\\HealthCloudDemo\\force-app\\main\\default\\lwc",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1551806445446,
+            "changeTime": 1551806445446,
+            "contentHash": "6d9ec9e60fc08c14145a9fac328bd18f6931ab57",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Alekh313\\HealthCloudDemo\\HealthCloudDemo\\force-app\\main\\default\\lwc\\homeAsideProfile",
+        {
+            "sourcePath": "C:\\Alekh313\\HealthCloudDemo\\HealthCloudDemo\\force-app\\main\\default\\lwc\\homeAsideProfile",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1551810805021,
+            "changeTime": 1551810805021,
+            "contentHash": "8b43e674cb553fdd983df8464f5e66cd67527f0d",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false
+        }
+    ],
+    [
+        "C:\\Alekh313\\HealthCloudDemo\\HealthCloudDemo\\force-app\\main\\default\\lwc\\homeAsideProfile\\homeAsideProfile.html",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Alekh313\\HealthCloudDemo\\HealthCloudDemo\\force-app\\main\\default\\lwc\\homeAsideProfile\\homeAsideProfile.html",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 991,
+            "modifiedTime": 1551814895221,
+            "changeTime": 1551814895221,
+            "isWorkspace": false,
+            "contentHash": "41212d6d008baffe7eb50632cf0b67d2329e7898"
+        }
+    ],
+    [
+        "C:\\Alekh313\\HealthCloudDemo\\HealthCloudDemo\\force-app\\main\\default\\lwc\\homeAsideProfile\\homeAsideProfile.js",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Alekh313\\HealthCloudDemo\\HealthCloudDemo\\force-app\\main\\default\\lwc\\homeAsideProfile\\homeAsideProfile.js",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 1251,
+            "modifiedTime": 1551814861594,
+            "changeTime": 1551814861594,
+            "isWorkspace": false,
+            "contentHash": "27fff8b390df0630dbd72cc5765bbbdf1dc3bcc6"
+        }
+    ],
+    [
+        "C:\\Alekh313\\HealthCloudDemo\\HealthCloudDemo\\force-app\\main\\default\\lwc\\homeAsideProfile\\homeAsideProfile.js-meta.xml",
+        {
+            "sourcePath": "C:\\Alekh313\\HealthCloudDemo\\HealthCloudDemo\\force-app\\main\\default\\lwc\\homeAsideProfile\\homeAsideProfile.js-meta.xml",
+            "isDirectory": false,
+            "size": 395,
+            "modifiedTime": 1551806794197,
+            "changeTime": 1551806794197,
+            "contentHash": "08e00bb70d3ae0a6a6409119fde6b3da42314365",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Alekh313\\HealthCloudDemo\\HealthCloudDemo",
+        {
+            "sourcePath": "C:\\Alekh313\\HealthCloudDemo\\HealthCloudDemo",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1551806369885,
+            "changeTime": 1551806369885,
+            "contentHash": "8499f14caadb26edb7610391b24cea2d696a53e6",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": true,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Alekh313\\HealthCloudDemo\\HealthCloudDemo\\force-app\\main\\default\\lwc\\homeAsideProfile\\homeAsideProfile.css",
+        {
+            "sourcePath": "C:\\Alekh313\\HealthCloudDemo\\HealthCloudDemo\\force-app\\main\\default\\lwc\\homeAsideProfile\\homeAsideProfile.css",
+            "isDirectory": false,
+            "size": 70,
+            "modifiedTime": 1551811543396,
+            "changeTime": 1551811543396,
+            "contentHash": "83590f18d0f86b37d93299fde100a17cd1aeefa2",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ]
+]
