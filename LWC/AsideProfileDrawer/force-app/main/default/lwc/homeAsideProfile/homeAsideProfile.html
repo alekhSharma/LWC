@@ -10,16 +10,30 @@
                 />
                 <span class="slds-m-left_medium">{name}</span> 
                 <span class="slds-m-left-medium">
-                    <lightning-button class="slds-float_right" label="Edit" icon-name="action:edit" onclick={profileEditButton}>
+                    <lightning-button class="slds-float_right" variant="base" label="Edit" icon-name="action:edit" onclick={profileEditButton}>
                         </lightning-button>
 
                 </span>
             </div>
+            <div class="slds-m-left_large slds-m-top_medium">
+                <template if:true={contact}>
+                    <template for:each={contact} for:item="con">
+                        <div key={con.Id} class="slds-m-top_small">
+                            <img src={con.Profile_Image__c} alt="Profile photo" key={con.Id} />
+                            <span key={con.Id} class="slds-m-left_medium"> {con.Name} </span>
+                            <span key={con.Id} class="slds-m-left_small"> ({con.Relationship__c}) </span>
+                            <span key={con.Id} class="slds-m-left-medium">
+                                    <lightning-button class="slds-float_right" variant="base" label="Edit" icon-name="action:edit" onclick={profileEditButton}>
+                                        </lightning-button>
+                
+                            </span>
+                        </div>
+                    </template>
+                </template>
+            </div>
             <div class="slds-m-around_medium">
-      
-                    <lightning-button class="slds-align_absolute-center" label="Add New Member" icon-name="utility:add" onclick={addMemberButton}>
+                    <lightning-button class="slds-align_absolute-center" variant="base" label="Add New Member" icon-name="utility:add" onclick={addMemberButton}>
                     </lightning-button>
-              
             </div>
 
         </template>

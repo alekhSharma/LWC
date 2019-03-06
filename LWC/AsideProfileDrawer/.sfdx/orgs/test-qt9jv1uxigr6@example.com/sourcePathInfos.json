@@ -1,0 +1,187 @@
+[
+    [
+        "D:\\DX\\LWC\\HealthCloudDemo\\AsideProfileDrawer\\force-app",
+        {
+            "sourcePath": "D:\\DX\\LWC\\HealthCloudDemo\\AsideProfileDrawer\\force-app",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1551854479754,
+            "changeTime": 1551854479754,
+            "contentHash": "b28b7af69320201d1cf206ebf28373980add1451",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": true
+        }
+    ],
+    [
+        "D:\\DX\\LWC\\HealthCloudDemo\\AsideProfileDrawer\\force-app\\main",
+        {
+            "sourcePath": "D:\\DX\\LWC\\HealthCloudDemo\\AsideProfileDrawer\\force-app\\main",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1551854479754,
+            "changeTime": 1551854479754,
+            "contentHash": "7505d64a54e061b7acd54ccd58b49dc43500b635",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "D:\\DX\\LWC\\HealthCloudDemo\\AsideProfileDrawer\\force-app\\main\\default",
+        {
+            "sourcePath": "D:\\DX\\LWC\\HealthCloudDemo\\AsideProfileDrawer\\force-app\\main\\default",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1551860062073,
+            "changeTime": 1551860062073,
+            "contentHash": "3a255ff489cff7ad29aac5620772096648592233",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false
+        }
+    ],
+    [
+        "D:\\DX\\LWC\\HealthCloudDemo\\AsideProfileDrawer\\force-app\\main\\default\\lwc",
+        {
+            "sourcePath": "D:\\DX\\LWC\\HealthCloudDemo\\AsideProfileDrawer\\force-app\\main\\default\\lwc",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1551854479786,
+            "changeTime": 1551854479786,
+            "contentHash": "6d9ec9e60fc08c14145a9fac328bd18f6931ab57",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "D:\\DX\\LWC\\HealthCloudDemo\\AsideProfileDrawer\\force-app\\main\\default\\lwc\\homeAsideProfile",
+        {
+            "sourcePath": "D:\\DX\\LWC\\HealthCloudDemo\\AsideProfileDrawer\\force-app\\main\\default\\lwc\\homeAsideProfile",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1551854479817,
+            "changeTime": 1551854479817,
+            "contentHash": "8b43e674cb553fdd983df8464f5e66cd67527f0d",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "D:\\DX\\LWC\\HealthCloudDemo\\AsideProfileDrawer\\force-app\\main\\default\\lwc\\homeAsideProfile\\homeAsideProfile.css",
+        {
+            "sourcePath": "D:\\DX\\LWC\\HealthCloudDemo\\AsideProfileDrawer\\force-app\\main\\default\\lwc\\homeAsideProfile\\homeAsideProfile.css",
+            "isDirectory": false,
+            "size": 70,
+            "modifiedTime": 1551853749277,
+            "changeTime": 1551853749277,
+            "contentHash": "83590f18d0f86b37d93299fde100a17cd1aeefa2",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "D:\\DX\\LWC\\HealthCloudDemo\\AsideProfileDrawer\\force-app\\main\\default\\lwc\\homeAsideProfile\\homeAsideProfile.html",
+        {
+            "state": "u",
+            "sourcePath": "D:\\DX\\LWC\\HealthCloudDemo\\AsideProfileDrawer\\force-app\\main\\default\\lwc\\homeAsideProfile\\homeAsideProfile.html",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 1988,
+            "modifiedTime": 1551872072868,
+            "changeTime": 1551872072868,
+            "isWorkspace": false,
+            "contentHash": "6ea1ee56779cefc828dce54ac8800bc1c48f7a99"
+        }
+    ],
+    [
+        "D:\\DX\\LWC\\HealthCloudDemo\\AsideProfileDrawer\\force-app\\main\\default\\lwc\\homeAsideProfile\\homeAsideProfile.js",
+        {
+            "sourcePath": "D:\\DX\\LWC\\HealthCloudDemo\\AsideProfileDrawer\\force-app\\main\\default\\lwc\\homeAsideProfile\\homeAsideProfile.js",
+            "isDirectory": false,
+            "size": 1674,
+            "modifiedTime": 1551871387832,
+            "changeTime": 1551871387832,
+            "contentHash": "5c4d9afa9d3fc05f0af1b50fef60866e66061745",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false
+        }
+    ],
+    [
+        "D:\\DX\\LWC\\HealthCloudDemo\\AsideProfileDrawer\\force-app\\main\\default\\lwc\\homeAsideProfile\\homeAsideProfile.js-meta.xml",
+        {
+            "sourcePath": "D:\\DX\\LWC\\HealthCloudDemo\\AsideProfileDrawer\\force-app\\main\\default\\lwc\\homeAsideProfile\\homeAsideProfile.js-meta.xml",
+            "isDirectory": false,
+            "size": 565,
+            "modifiedTime": 1551858819942,
+            "changeTime": 1551858819942,
+            "contentHash": "88162b0dbdb3b592a416dd9a60c8ece4aab05616",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false
+        }
+    ],
+    [
+        "D:\\DX\\LWC\\HealthCloudDemo\\AsideProfileDrawer",
+        {
+            "sourcePath": "D:\\DX\\LWC\\HealthCloudDemo\\AsideProfileDrawer",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1551860122169,
+            "changeTime": 1551854479879,
+            "contentHash": "8499f14caadb26edb7610391b24cea2d696a53e6",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": true,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "D:\\DX\\LWC\\HealthCloudDemo\\AsideProfileDrawer\\force-app\\main\\default\\classes",
+        {
+            "sourcePath": "D:\\DX\\LWC\\HealthCloudDemo\\AsideProfileDrawer\\force-app\\main\\default\\classes",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1551860122169,
+            "changeTime": 1551860122169,
+            "contentHash": "a042246eabe6e2d4515e6232f005410bbe6d10cf",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "D:\\DX\\LWC\\HealthCloudDemo\\AsideProfileDrawer\\force-app\\main\\default\\classes\\contactInfoController.cls",
+        {
+            "sourcePath": "D:\\DX\\LWC\\HealthCloudDemo\\AsideProfileDrawer\\force-app\\main\\default\\classes\\contactInfoController.cls",
+            "isDirectory": false,
+            "size": 282,
+            "modifiedTime": 1551871454813,
+            "changeTime": 1551871454813,
+            "contentHash": "7ed1732d73082367d6f3ce37e164770d1a358b85",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "D:\\DX\\LWC\\HealthCloudDemo\\AsideProfileDrawer\\force-app\\main\\default\\classes\\contactInfoController.cls-meta.xml",
+        {
+            "sourcePath": "D:\\DX\\LWC\\HealthCloudDemo\\AsideProfileDrawer\\force-app\\main\\default\\classes\\contactInfoController.cls-meta.xml",
+            "isDirectory": false,
+            "size": 199,
+            "modifiedTime": 1551860122067,
+            "changeTime": 1551860122072,
+            "contentHash": "f6bd11c910553134a0ec6a270241034335c60e3e",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ]
+]
