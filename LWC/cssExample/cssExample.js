@@ -4,12 +4,10 @@ import { loadStyle } from 'lightning/platformResourceLoader';
 
 export default class CssExample extends LightningElement {
 
-    renderedCallback() {
-
+    connectedCallback() {
         Promise.all([
-            loadStyle(this, cssStaticResource + '/StaticCSS/StaticResourceCSS.css'),
+           loadStyle(this, cssStaticResource + '/StaticResourceCSS.css')
         ]);
-
     }
    
 }
