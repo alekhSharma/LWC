@@ -1,0 +1,10 @@
+{
+	"folders": [
+		{
+			"path": "D:\\DX\\trail-comp"
+		}
+	],
+	"settings": {
+		"eslint.nodePath": "c:\\Users\\661784\\.vscode\\extensions\\salesforce.salesforcedx-vscode-lwc-45.9.0\\node_modules"
+	}
+}

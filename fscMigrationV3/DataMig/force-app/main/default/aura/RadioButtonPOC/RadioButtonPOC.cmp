@@ -1,0 +1,9 @@
+<aura:component access="global" >
+    <aura:attribute name='Stages' type='String[]' default="['One','Two']"/>
+    
+    <aura:iteration items="{!v.Stages}" var="stage" >
+        <lightning:input type='radio' label="{!stage}" onclick="{!c.onRadioClk}" />
+    </aura:iteration> 
+
+
+</aura:component>

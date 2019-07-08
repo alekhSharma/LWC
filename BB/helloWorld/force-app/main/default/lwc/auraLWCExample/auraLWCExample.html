@@ -1,0 +1,22 @@
+<template>
+        <div class="slds-grid slds-gutters">
+                <div class="slds-col">
+                  <span>
+                        <lightning-card title="LWC">
+                                <div class="slds-m-around_large">
+                         
+                                Parent Element
+                                <center>
+                                    <lightning-button label="Parent Counter" onclick={ParentMethodCall}></lightning-button>
+                                    <lightning-button label="<<<<<< Lightning Event" onclick={AuraEvent}></lightning-button>
+                                </center>
+                                Parent Variable :  {parentVar}  <br/>
+                                Event Variable : {eventVar}  <br/>
+                                </div>
+                        
+                            </lightning-card>        
+                  </span>
+                </div>
+                </div>
+           
+</template>

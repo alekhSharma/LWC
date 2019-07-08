@@ -1,0 +1,27 @@
+{
+    "compilerOptions": {
+        "experimentalDecorators": true,
+        "baseUrl": ".",
+        "paths": {
+            "c/activity-timeline": [
+                "activityTimeline/activityTimeline.js"
+            ],
+            "c/header-progress-path": [
+                "headerProgressPath/headerProgressPath.js"
+            ],
+            "c/home-aside-profile": [
+                "homeAsideProfile/homeAsideProfile.js"
+            ],
+            "c/home-body-slider": [
+                "homeBodySlider/homeBodySlider.js"
+            ],
+            "c/plan-detailer": [
+                "planDetailer/planDetailer.js"
+            ]
+        }
+    },
+    "include": [
+        "**/*",
+        "../../../../.sfdx/typings/lwc/**/*.d.ts"
+    ]
+}

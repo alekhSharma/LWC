@@ -1,0 +1,194 @@
+[
+    [
+        "D:\\DX\\LWC\\factoryFunctionExample\\force-app",
+        {
+            "sourcePath": "D:\\DX\\LWC\\factoryFunctionExample\\force-app",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1548760794185,
+            "changeTime": 1548760794185,
+            "contentHash": "b28b7af69320201d1cf206ebf28373980add1451",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": true
+        }
+    ],
+    [
+        "D:\\DX\\LWC\\factoryFunctionExample\\force-app\\main",
+        {
+            "sourcePath": "D:\\DX\\LWC\\factoryFunctionExample\\force-app\\main",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1548760794185,
+            "changeTime": 1548760794185,
+            "contentHash": "7505d64a54e061b7acd54ccd58b49dc43500b635",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "D:\\DX\\LWC\\factoryFunctionExample\\force-app\\main\\default",
+        {
+            "sourcePath": "D:\\DX\\LWC\\factoryFunctionExample\\force-app\\main\\default",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1548761738830,
+            "changeTime": 1548761738830,
+            "contentHash": "4e08c780891b642888127802fc523a4ecf46b492",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "D:\\DX\\LWC\\factoryFunctionExample\\force-app\\main\\default\\flexipages",
+        {
+            "sourcePath": "D:\\DX\\LWC\\factoryFunctionExample\\force-app\\main\\default\\flexipages",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1548761738831,
+            "changeTime": 1548761738831,
+            "contentHash": "8db0c01f640acc7ba1b555b8d1a44b12fe1de7dd",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "D:\\DX\\LWC\\factoryFunctionExample\\force-app\\main\\default\\flexipages\\Home_Page_Default.flexipage-meta.xml",
+        {
+            "sourcePath": "D:\\DX\\LWC\\factoryFunctionExample\\force-app\\main\\default\\flexipages\\Home_Page_Default.flexipage-meta.xml",
+            "isDirectory": false,
+            "size": 980,
+            "modifiedTime": 1548761738831,
+            "changeTime": 1548761738831,
+            "contentHash": "744b9b6b56592f7d1a9247bc32ff13aa7da863ef",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "D:\\DX\\LWC\\factoryFunctionExample\\force-app\\main\\default\\lwc",
+        {
+            "sourcePath": "D:\\DX\\LWC\\factoryFunctionExample\\force-app\\main\\default\\lwc",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1548845231932,
+            "changeTime": 1548845231932,
+            "contentHash": "6c7ec42e3e09df6dd46878cb4f6e339581644c4b",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "D:\\DX\\LWC\\factoryFunctionExample\\force-app\\main\\default\\lwc\\getterSetterJsExample",
+        {
+            "sourcePath": "D:\\DX\\LWC\\factoryFunctionExample\\force-app\\main\\default\\lwc\\getterSetterJsExample",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1548843440199,
+            "changeTime": 1548843440199,
+            "contentHash": "7fe16bf28490747cf681b772c83d572897b00685",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "D:\\DX\\LWC\\factoryFunctionExample\\force-app\\main\\default\\lwc\\getterSetterJsExample\\getterSetterJsExample.html",
+        {
+            "sourcePath": "D:\\DX\\LWC\\factoryFunctionExample\\force-app\\main\\default\\lwc\\getterSetterJsExample\\getterSetterJsExample.html",
+            "isDirectory": false,
+            "size": 117,
+            "modifiedTime": 1548929854155,
+            "changeTime": 1548929854155,
+            "contentHash": "595f7fd05a3849e273b1bc37b3a03a38f2db448a",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false
+        }
+    ],
+    [
+        "D:\\DX\\LWC\\factoryFunctionExample\\force-app\\main\\default\\lwc\\getterSetterJsExample\\getterSetterJsExample.js",
+        {
+            "state": "u",
+            "sourcePath": "D:\\DX\\LWC\\factoryFunctionExample\\force-app\\main\\default\\lwc\\getterSetterJsExample\\getterSetterJsExample.js",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 401,
+            "modifiedTime": 1548930009561,
+            "changeTime": 1548930009561,
+            "isWorkspace": false,
+            "contentHash": "821eca4614f5c37ae3845804161111c815b0c045"
+        }
+    ],
+    [
+        "D:\\DX\\LWC\\factoryFunctionExample\\force-app\\main\\default\\lwc\\getterSetterJsExample\\getterSetterJsExample.js-meta.xml",
+        {
+            "sourcePath": "D:\\DX\\LWC\\factoryFunctionExample\\force-app\\main\\default\\lwc\\getterSetterJsExample\\getterSetterJsExample.js-meta.xml",
+            "isDirectory": false,
+            "size": 331,
+            "modifiedTime": 1548916633942,
+            "changeTime": 1548916633942,
+            "contentHash": "0ab515266480fe3611f677a493c415262868b1ec",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false
+        }
+    ],
+    [
+        "D:\\DX\\LWC\\factoryFunctionExample\\force-app\\main\\default\\settings",
+        {
+            "sourcePath": "D:\\DX\\LWC\\factoryFunctionExample\\force-app\\main\\default\\settings",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1548761738823,
+            "changeTime": 1548761738823,
+            "contentHash": "51a767161ecb76df77be39042e42cbb2d91005fb",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "D:\\DX\\LWC\\factoryFunctionExample\\force-app\\main\\default\\settings\\OrgPreference.settings-meta.xml",
+        {
+            "sourcePath": "D:\\DX\\LWC\\factoryFunctionExample\\force-app\\main\\default\\settings\\OrgPreference.settings-meta.xml",
+            "isDirectory": false,
+            "size": 6383,
+            "modifiedTime": 1548761738824,
+            "changeTime": 1548761738824,
+            "contentHash": "53153da293978b02d191b6ae64f72eae1e200c56",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "D:\\DX\\LWC\\factoryFunctionExample",
+        {
+            "sourcePath": "D:\\DX\\LWC\\factoryFunctionExample",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1548760961872,
+            "changeTime": 1548760961872,
+            "contentHash": "8499f14caadb26edb7610391b24cea2d696a53e6",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": true,
+            "isArtifactRoot": false
+        }
+    ]
+]

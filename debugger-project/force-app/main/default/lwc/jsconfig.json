@@ -2,14 +2,15 @@
     "compilerOptions": {
         "experimentalDecorators": true,
         "baseUrl": ".",
-        "paths": {
-            "c/getter-setter-js-example": [
-                "getterSetterJsExample/getterSetterJsExample.js"
-            ]
-        }
+        "paths": {}
     },
     "include": [
         "**/*",
         "../../../../.sfdx/typings/lwc/**/*.d.ts"
-    ]
+    ],
+    "typeAcquisition": {
+        "include": [
+            "jest"
+        ]
+    }
 }

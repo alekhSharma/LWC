@@ -1,0 +1,688 @@
+[
+    [
+        "D:\\DX\\BB\\helloWorld\\force-app",
+        {
+            "sourcePath": "D:\\DX\\BB\\helloWorld\\force-app",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1551961182296,
+            "changeTime": 1551961182296,
+            "contentHash": "b28b7af69320201d1cf206ebf28373980add1451",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": true
+        }
+    ],
+    [
+        "D:\\DX\\BB\\helloWorld\\force-app\\main",
+        {
+            "sourcePath": "D:\\DX\\BB\\helloWorld\\force-app\\main",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1551961182296,
+            "changeTime": 1551961182296,
+            "contentHash": "7505d64a54e061b7acd54ccd58b49dc43500b635",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "D:\\DX\\BB\\helloWorld\\force-app\\main\\default",
+        {
+            "sourcePath": "D:\\DX\\BB\\helloWorld\\force-app\\main\\default",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1551961182297,
+            "changeTime": 1551961182297,
+            "contentHash": "7334b1e8716ee057f8863fce77d3933d5bd9d984",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "D:\\DX\\BB\\helloWorld\\force-app\\main\\default\\aura",
+        {
+            "sourcePath": "D:\\DX\\BB\\helloWorld\\force-app\\main\\default\\aura",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1552979741314,
+            "changeTime": 1552979741314,
+            "contentHash": "a1123112806f6977758621d753f116962efa76e8",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false
+        }
+    ],
+    [
+        "D:\\DX\\BB\\helloWorld\\force-app\\main\\default\\lwc",
+        {
+            "sourcePath": "D:\\DX\\BB\\helloWorld\\force-app\\main\\default\\lwc",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1552909410347,
+            "changeTime": 1552909410347,
+            "contentHash": "40641b18c81139af938f360f2be4d741285b1ec4",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false
+        }
+    ],
+    [
+        "D:\\DX\\BB\\helloWorld",
+        {
+            "sourcePath": "D:\\DX\\BB\\helloWorld",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1551961208018,
+            "changeTime": 1551961208018,
+            "contentHash": "8499f14caadb26edb7610391b24cea2d696a53e6",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": true,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "D:\\DX\\BB\\helloWorld\\force-app\\main\\default\\lwc\\helpTextBox",
+        {
+            "sourcePath": "D:\\DX\\BB\\helloWorld\\force-app\\main\\default\\lwc\\helpTextBox",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1552047813825,
+            "changeTime": 1552047813825,
+            "contentHash": "80e3369b825ce351b7493989af17739d599ec4f7",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "D:\\DX\\BB\\helloWorld\\force-app\\main\\default\\lwc\\helpTextBox\\helpTextBox.html",
+        {
+            "sourcePath": "D:\\DX\\BB\\helloWorld\\force-app\\main\\default\\lwc\\helpTextBox\\helpTextBox.html",
+            "isDirectory": false,
+            "size": 697,
+            "modifiedTime": 1552053186316,
+            "changeTime": 1552053186316,
+            "contentHash": "cfe0100cf2b8b5114783a0eeecb5572df9f644c6",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "D:\\DX\\BB\\helloWorld\\force-app\\main\\default\\lwc\\helpTextBox\\helpTextBox.js",
+        {
+            "sourcePath": "D:\\DX\\BB\\helloWorld\\force-app\\main\\default\\lwc\\helpTextBox\\helpTextBox.js",
+            "isDirectory": false,
+            "size": 101,
+            "modifiedTime": 1552047813822,
+            "changeTime": 1552047813822,
+            "contentHash": "63839c5ed48017a278f4e68bb4c19f35d2ba19c0",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "D:\\DX\\BB\\helloWorld\\force-app\\main\\default\\lwc\\helpTextBox\\helpTextBox.js-meta.xml",
+        {
+            "sourcePath": "D:\\DX\\BB\\helloWorld\\force-app\\main\\default\\lwc\\helpTextBox\\helpTextBox.js-meta.xml",
+            "isDirectory": false,
+            "size": 390,
+            "modifiedTime": 1552049197756,
+            "changeTime": 1552049197756,
+            "contentHash": "7a66137a709081ebaede74575976b74c6ffb2714",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "D:\\DX\\BB\\helloWorld\\force-app\\main\\default\\lwc\\cssExample",
+        {
+            "sourcePath": "D:\\DX\\BB\\helloWorld\\force-app\\main\\default\\lwc\\cssExample",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1552386016529,
+            "changeTime": 1552386016529,
+            "contentHash": "498e5a27bac02c25669049138e48e385b773faaf",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "D:\\DX\\BB\\helloWorld\\force-app\\main\\default\\lwc\\cssExample\\cssExample.html",
+        {
+            "sourcePath": "D:\\DX\\BB\\helloWorld\\force-app\\main\\default\\lwc\\cssExample\\cssExample.html",
+            "isDirectory": false,
+            "size": 858,
+            "modifiedTime": 1552386371685,
+            "changeTime": 1552378502937,
+            "contentHash": "644217c359d564c9efe4e8cf74bae001346960a5",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "D:\\DX\\BB\\helloWorld\\force-app\\main\\default\\lwc\\cssExample\\cssExample.js",
+        {
+            "sourcePath": "D:\\DX\\BB\\helloWorld\\force-app\\main\\default\\lwc\\cssExample\\cssExample.js",
+            "isDirectory": false,
+            "size": 502,
+            "modifiedTime": 1552472464318,
+            "changeTime": 1552472464318,
+            "contentHash": "9f44fa5a78845ae8055798ab2fb7a185c76b30a4",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "D:\\DX\\BB\\helloWorld\\force-app\\main\\default\\lwc\\cssExample\\cssExample.js-meta.xml",
+        {
+            "sourcePath": "D:\\DX\\BB\\helloWorld\\force-app\\main\\default\\lwc\\cssExample\\cssExample.js-meta.xml",
+            "isDirectory": false,
+            "size": 385,
+            "modifiedTime": 1552376389045,
+            "changeTime": 1552376389045,
+            "contentHash": "1b3dcec2f95a77dffd633aa5446d0e4103fae311",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "D:\\DX\\BB\\helloWorld\\force-app\\main\\default\\lwc\\toastMessage",
+        {
+            "sourcePath": "D:\\DX\\BB\\helloWorld\\force-app\\main\\default\\lwc\\toastMessage",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1552393108809,
+            "changeTime": 1552393108809,
+            "contentHash": "0b3dab660011626ad6fa9a2f5b477b9ee56b13b8",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "D:\\DX\\BB\\helloWorld\\force-app\\main\\default\\lwc\\toastMessage\\toastMessage.html",
+        {
+            "sourcePath": "D:\\DX\\BB\\helloWorld\\force-app\\main\\default\\lwc\\toastMessage\\toastMessage.html",
+            "isDirectory": false,
+            "size": 569,
+            "modifiedTime": 1552400381884,
+            "changeTime": 1552400381884,
+            "contentHash": "10d02c2f51ecaf9573894cc4808fb1e443f509a3",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "D:\\DX\\BB\\helloWorld\\force-app\\main\\default\\lwc\\toastMessage\\toastMessage.js",
+        {
+            "sourcePath": "D:\\DX\\BB\\helloWorld\\force-app\\main\\default\\lwc\\toastMessage\\toastMessage.js",
+            "isDirectory": false,
+            "size": 1010,
+            "modifiedTime": 1552400589753,
+            "changeTime": 1552400589753,
+            "contentHash": "4b14eb806599d4b2e86b109e80dada321d4a0c2d",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "D:\\DX\\BB\\helloWorld\\force-app\\main\\default\\lwc\\toastMessage\\toastMessage.js-meta.xml",
+        {
+            "sourcePath": "D:\\DX\\BB\\helloWorld\\force-app\\main\\default\\lwc\\toastMessage\\toastMessage.js-meta.xml",
+            "isDirectory": false,
+            "size": 391,
+            "modifiedTime": 1552392754379,
+            "changeTime": 1552392754379,
+            "contentHash": "5f9d810bc78a3683eac9231599bb6bcca61b777a",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "D:\\DX\\BB\\helloWorld\\force-app\\main\\default\\lwc\\toastMessage\\toastMessage.css",
+        {
+            "sourcePath": "D:\\DX\\BB\\helloWorld\\force-app\\main\\default\\lwc\\toastMessage\\toastMessage.css",
+            "isDirectory": false,
+            "size": 76,
+            "modifiedTime": 1552393319106,
+            "changeTime": 1552393114846,
+            "contentHash": "a53d17ade36e3ce2782bda821b12302be9e80bed",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "D:\\DX\\BB\\helloWorld\\force-app\\main\\default\\lwc\\eventExample",
+        {
+            "sourcePath": "D:\\DX\\BB\\helloWorld\\force-app\\main\\default\\lwc\\eventExample",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1552904968494,
+            "changeTime": 1552904968494,
+            "contentHash": "fb737b95394338ed77b24c3ca2d5540946ebfa64",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "D:\\DX\\BB\\helloWorld\\force-app\\main\\default\\lwc\\eventExample\\eventExample.html",
+        {
+            "sourcePath": "D:\\DX\\BB\\helloWorld\\force-app\\main\\default\\lwc\\eventExample\\eventExample.html",
+            "isDirectory": false,
+            "size": 1160,
+            "modifiedTime": 1552907932400,
+            "changeTime": 1552907932400,
+            "contentHash": "b3d6804967c78627ba3083fa3b92ae5e2f7f6617",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "D:\\DX\\BB\\helloWorld\\force-app\\main\\default\\lwc\\eventExample\\eventExample.js",
+        {
+            "sourcePath": "D:\\DX\\BB\\helloWorld\\force-app\\main\\default\\lwc\\eventExample\\eventExample.js",
+            "isDirectory": false,
+            "size": 705,
+            "modifiedTime": 1552908341220,
+            "changeTime": 1552908341220,
+            "contentHash": "912bd74d19924131c8833996a13b327306a8350c",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "D:\\DX\\BB\\helloWorld\\force-app\\main\\default\\lwc\\eventExample\\eventExample.js-meta.xml",
+        {
+            "sourcePath": "D:\\DX\\BB\\helloWorld\\force-app\\main\\default\\lwc\\eventExample\\eventExample.js-meta.xml",
+            "isDirectory": false,
+            "size": 391,
+            "modifiedTime": 1552904998112,
+            "changeTime": 1552904998112,
+            "contentHash": "e2997975c078547f13440c2483056ccead93db97",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "D:\\DX\\BB\\helloWorld\\force-app\\main\\default\\lwc\\eventExampleChild",
+        {
+            "sourcePath": "D:\\DX\\BB\\helloWorld\\force-app\\main\\default\\lwc\\eventExampleChild",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1552905622459,
+            "changeTime": 1552905622459,
+            "contentHash": "18251a3fe5df0d65c222f7d44f868252cf0bc2b8",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "D:\\DX\\BB\\helloWorld\\force-app\\main\\default\\lwc\\eventExampleChild\\eventExampleChild.html",
+        {
+            "sourcePath": "D:\\DX\\BB\\helloWorld\\force-app\\main\\default\\lwc\\eventExampleChild\\eventExampleChild.html",
+            "isDirectory": false,
+            "size": 581,
+            "modifiedTime": 1552906409161,
+            "changeTime": 1552906409161,
+            "contentHash": "442c14d92c8a931fab323ce6d300c16c56b4762e",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "D:\\DX\\BB\\helloWorld\\force-app\\main\\default\\lwc\\eventExampleChild\\eventExampleChild.js",
+        {
+            "sourcePath": "D:\\DX\\BB\\helloWorld\\force-app\\main\\default\\lwc\\eventExampleChild\\eventExampleChild.js",
+            "isDirectory": false,
+            "size": 315,
+            "modifiedTime": 1552906506565,
+            "changeTime": 1552906506565,
+            "contentHash": "7690e9e5026d18fcea03c6e576c2da2dea81f0a0",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "D:\\DX\\BB\\helloWorld\\force-app\\main\\default\\lwc\\eventExampleChild\\eventExampleChild.js-meta.xml",
+        {
+            "sourcePath": "D:\\DX\\BB\\helloWorld\\force-app\\main\\default\\lwc\\eventExampleChild\\eventExampleChild.js-meta.xml",
+            "isDirectory": false,
+            "size": 396,
+            "modifiedTime": 1552905642240,
+            "changeTime": 1552905642240,
+            "contentHash": "f9807091e949fea59c739c4a3c3f0b11b36ef3b3",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "D:\\DX\\BB\\helloWorld\\force-app\\main\\default\\lwc\\counterExample",
+        {
+            "sourcePath": "D:\\DX\\BB\\helloWorld\\force-app\\main\\default\\lwc\\counterExample",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1552906731294,
+            "changeTime": 1552906731294,
+            "contentHash": "580bdd0f702da737d51139547d05528357e828f0",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "D:\\DX\\BB\\helloWorld\\force-app\\main\\default\\lwc\\counterExample\\counterExample.html",
+        {
+            "sourcePath": "D:\\DX\\BB\\helloWorld\\force-app\\main\\default\\lwc\\counterExample\\counterExample.html",
+            "isDirectory": false,
+            "size": 1365,
+            "modifiedTime": 1552908603481,
+            "changeTime": 1552908603481,
+            "contentHash": "c8a98057769d6e5204b43dc1bc7d55fb2e113135",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "D:\\DX\\BB\\helloWorld\\force-app\\main\\default\\lwc\\counterExample\\counterExample.js",
+        {
+            "sourcePath": "D:\\DX\\BB\\helloWorld\\force-app\\main\\default\\lwc\\counterExample\\counterExample.js",
+            "isDirectory": false,
+            "size": 933,
+            "modifiedTime": 1552908870625,
+            "changeTime": 1552908870625,
+            "contentHash": "942abcb73b60b117b36252ed538ba23872328285",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "D:\\DX\\BB\\helloWorld\\force-app\\main\\default\\lwc\\counterExample\\counterExample.js-meta.xml",
+        {
+            "sourcePath": "D:\\DX\\BB\\helloWorld\\force-app\\main\\default\\lwc\\counterExample\\counterExample.js-meta.xml",
+            "isDirectory": false,
+            "size": 393,
+            "modifiedTime": 1552906755725,
+            "changeTime": 1552906755725,
+            "contentHash": "def19802dd713e4038e5155dc9c4d75ee5a54bb3",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "D:\\DX\\BB\\helloWorld\\force-app\\main\\default\\lwc\\counterExampleChild",
+        {
+            "sourcePath": "D:\\DX\\BB\\helloWorld\\force-app\\main\\default\\lwc\\counterExampleChild",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1552906879499,
+            "changeTime": 1552906879499,
+            "contentHash": "5beaee993f2b5cfda76925c1d67c30ae85330ae2",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "D:\\DX\\BB\\helloWorld\\force-app\\main\\default\\lwc\\counterExampleChild\\counterExampleChild.html",
+        {
+            "sourcePath": "D:\\DX\\BB\\helloWorld\\force-app\\main\\default\\lwc\\counterExampleChild\\counterExampleChild.html",
+            "isDirectory": false,
+            "size": 629,
+            "modifiedTime": 1552908813550,
+            "changeTime": 1552908813550,
+            "contentHash": "d451fa03d67c72ad90510cdf99b6596d90de2a41",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "D:\\DX\\BB\\helloWorld\\force-app\\main\\default\\lwc\\counterExampleChild\\counterExampleChild.js",
+        {
+            "sourcePath": "D:\\DX\\BB\\helloWorld\\force-app\\main\\default\\lwc\\counterExampleChild\\counterExampleChild.js",
+            "isDirectory": false,
+            "size": 913,
+            "modifiedTime": 1552908890597,
+            "changeTime": 1552908890597,
+            "contentHash": "f9c02ecfd41268f5a1572effc14aa3202b45a9a5",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "D:\\DX\\BB\\helloWorld\\force-app\\main\\default\\lwc\\counterExampleChild\\counterExampleChild.js-meta.xml",
+        {
+            "sourcePath": "D:\\DX\\BB\\helloWorld\\force-app\\main\\default\\lwc\\counterExampleChild\\counterExampleChild.js-meta.xml",
+            "isDirectory": false,
+            "size": 399,
+            "modifiedTime": 1552906892775,
+            "changeTime": 1552906892775,
+            "contentHash": "ccf7a88df7622b11973b1d0cbc3d264d5e651ec9",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "D:\\DX\\BB\\helloWorld\\force-app\\main\\default\\lwc\\pubsub",
+        {
+            "sourcePath": "D:\\DX\\BB\\helloWorld\\force-app\\main\\default\\lwc\\pubsub",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1552908152114,
+            "changeTime": 1552908152176,
+            "contentHash": "825dc4f64293d1cb0763368d6a5b772afed59972",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "D:\\DX\\BB\\helloWorld\\force-app\\main\\default\\lwc\\pubsub\\pubsub.js",
+        {
+            "sourcePath": "D:\\DX\\BB\\helloWorld\\force-app\\main\\default\\lwc\\pubsub\\pubsub.js",
+            "isDirectory": false,
+            "size": 3095,
+            "modifiedTime": 1552390995598,
+            "changeTime": 1552390995598,
+            "contentHash": "5d390f9d772200038b7d6e8183ad4681913f4c82",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "D:\\DX\\BB\\helloWorld\\force-app\\main\\default\\lwc\\pubsub\\pubsub.js-meta.xml",
+        {
+            "sourcePath": "D:\\DX\\BB\\helloWorld\\force-app\\main\\default\\lwc\\pubsub\\pubsub.js-meta.xml",
+            "isDirectory": false,
+            "size": 209,
+            "modifiedTime": 1552390995614,
+            "changeTime": 1552390995614,
+            "contentHash": "cd5aed137b091f8314d531bfe8a980b54ab2278f",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "D:\\DX\\BB\\helloWorld\\force-app\\main\\default\\lwc\\auraLWCExample",
+        {
+            "sourcePath": "D:\\DX\\BB\\helloWorld\\force-app\\main\\default\\lwc\\auraLWCExample",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1552909352339,
+            "changeTime": 1552909352339,
+            "contentHash": "5c0f8b12bc6281b9edffac99f4dd5cca3b58d143",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "D:\\DX\\BB\\helloWorld\\force-app\\main\\default\\lwc\\auraLWCExample\\auraLWCExample.html",
+        {
+            "sourcePath": "D:\\DX\\BB\\helloWorld\\force-app\\main\\default\\lwc\\auraLWCExample\\auraLWCExample.html",
+            "isDirectory": false,
+            "size": 994,
+            "modifiedTime": 1552989812759,
+            "changeTime": 1552989812759,
+            "contentHash": "d936ac0a1e82af1f2b5466258a384ecde7ce3334",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "D:\\DX\\BB\\helloWorld\\force-app\\main\\default\\lwc\\auraLWCExample\\auraLWCExample.js",
+        {
+            "state": "u",
+            "sourcePath": "D:\\DX\\BB\\helloWorld\\force-app\\main\\default\\lwc\\auraLWCExample\\auraLWCExample.js",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 450,
+            "modifiedTime": 1552992303465,
+            "changeTime": 1552992303465,
+            "contentHash": "04f222ad2b2241c1ffa8621cb14c5c04161bd520"
+        }
+    ],
+    [
+        "D:\\DX\\BB\\helloWorld\\force-app\\main\\default\\lwc\\auraLWCExample\\auraLWCExample.js-meta.xml",
+        {
+            "sourcePath": "D:\\DX\\BB\\helloWorld\\force-app\\main\\default\\lwc\\auraLWCExample\\auraLWCExample.js-meta.xml",
+            "isDirectory": false,
+            "size": 393,
+            "modifiedTime": 1552909401308,
+            "changeTime": 1552909401308,
+            "contentHash": "ff9efdb48e07e7beb65a4a3fbc2dc6c3d5af524b",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "D:\\DX\\BB\\helloWorld\\force-app\\main\\default\\aura\\auraLWCExampleLightning",
+        {
+            "sourcePath": "D:\\DX\\BB\\helloWorld\\force-app\\main\\default\\aura\\auraLWCExampleLightning",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1552979741341,
+            "changeTime": 1552979741341,
+            "contentHash": "419c98832d69e03fdc63fccf9789506a311251dd",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "D:\\DX\\BB\\helloWorld\\force-app\\main\\default\\aura\\auraLWCExampleLightning\\auraLWCExampleLightning.auradoc",
+        {
+            "sourcePath": "D:\\DX\\BB\\helloWorld\\force-app\\main\\default\\aura\\auraLWCExampleLightning\\auraLWCExampleLightning.auradoc",
+            "isDirectory": false,
+            "size": 209,
+            "modifiedTime": 1552979741340,
+            "changeTime": 1552979741340,
+            "contentHash": "fd7f560d82324d6a8255c8c6ebf60698f5f93f1e",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "D:\\DX\\BB\\helloWorld\\force-app\\main\\default\\aura\\auraLWCExampleLightning\\auraLWCExampleLightning.cmp",
+        {
+            "sourcePath": "D:\\DX\\BB\\helloWorld\\force-app\\main\\default\\aura\\auraLWCExampleLightning\\auraLWCExampleLightning.cmp",
+            "isDirectory": false,
+            "size": 1557,
+            "modifiedTime": 1552992146177,
+            "changeTime": 1552992146177,
+            "contentHash": "2966563a68d7f1410ec5ef5833cd88e56b6e8731",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "D:\\DX\\BB\\helloWorld\\force-app\\main\\default\\aura\\auraLWCExampleLightning\\auraLWCExampleLightning.cmp-meta.xml",
+        {
+            "sourcePath": "D:\\DX\\BB\\helloWorld\\force-app\\main\\default\\aura\\auraLWCExampleLightning\\auraLWCExampleLightning.cmp-meta.xml",
+            "isDirectory": false,
+            "size": 255,
+            "modifiedTime": 1552979741316,
+            "changeTime": 1552979741316,
+            "contentHash": "ae700002190e9533c84c68647c3a2089e02d87f8",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "D:\\DX\\BB\\helloWorld\\force-app\\main\\default\\aura\\auraLWCExampleLightning\\auraLWCExampleLightning.css",
+        {
+            "sourcePath": "D:\\DX\\BB\\helloWorld\\force-app\\main\\default\\aura\\auraLWCExampleLightning\\auraLWCExampleLightning.css",
+            "isDirectory": false,
+            "size": 10,
+            "modifiedTime": 1552979741337,
+            "changeTime": 1552979741337,
+            "contentHash": "44063bf628f237edaa1f3f358714dd40ac321703",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "D:\\DX\\BB\\helloWorld\\force-app\\main\\default\\aura\\auraLWCExampleLightning\\auraLWCExampleLightning.design",
+        {
+            "sourcePath": "D:\\DX\\BB\\helloWorld\\force-app\\main\\default\\aura\\auraLWCExampleLightning\\auraLWCExampleLightning.design",
+            "isDirectory": false,
+            "size": 40,
+            "modifiedTime": 1552979741341,
+            "changeTime": 1552979741341,
+            "contentHash": "c5618bc7228e29c74b07b78fd040e05ae8a541ec",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "D:\\DX\\BB\\helloWorld\\force-app\\main\\default\\aura\\auraLWCExampleLightning\\auraLWCExampleLightning.svg",
+        {
+            "sourcePath": "D:\\DX\\BB\\helloWorld\\force-app\\main\\default\\aura\\auraLWCExampleLightning\\auraLWCExampleLightning.svg",
+            "isDirectory": false,
+            "size": 661,
+            "modifiedTime": 1552979741339,
+            "changeTime": 1552979741339,
+            "contentHash": "721eeffe17135535c3834b77f1e1968fe6360ed4",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "D:\\DX\\BB\\helloWorld\\force-app\\main\\default\\aura\\auraLWCExampleLightning\\auraLWCExampleLightningController.js",
+        {
+            "state": "u",
+            "sourcePath": "D:\\DX\\BB\\helloWorld\\force-app\\main\\default\\aura\\auraLWCExampleLightning\\auraLWCExampleLightningController.js",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 561,
+            "modifiedTime": 1552992289745,
+            "changeTime": 1552992289745,
+            "contentHash": "6abce264da8c34b908e80659256bfda76a804eca"
+        }
+    ],
+    [
+        "D:\\DX\\BB\\helloWorld\\force-app\\main\\default\\aura\\auraLWCExampleLightning\\auraLWCExampleLightningHelper.js",
+        {
+            "sourcePath": "D:\\DX\\BB\\helloWorld\\force-app\\main\\default\\aura\\auraLWCExampleLightning\\auraLWCExampleLightningHelper.js",
+            "isDirectory": false,
+            "size": 45,
+            "modifiedTime": 1552979741336,
+            "changeTime": 1552979741336,
+            "contentHash": "fa35ebecd73c127729bf311a95b613f711a6f10b",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "D:\\DX\\BB\\helloWorld\\force-app\\main\\default\\aura\\auraLWCExampleLightning\\auraLWCExampleLightningRenderer.js",
+        {
+            "sourcePath": "D:\\DX\\BB\\helloWorld\\force-app\\main\\default\\aura\\auraLWCExampleLightning\\auraLWCExampleLightningRenderer.js",
+            "isDirectory": false,
+            "size": 50,
+            "modifiedTime": 1552979741338,
+            "changeTime": 1552979741338,
+            "contentHash": "8b79b016f08440c9b2f7d706a6d21229c854540b",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ]
+]

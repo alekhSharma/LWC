@@ -1,0 +1,74 @@
+{
+    "compilerOptions": {
+        "experimentalDecorators": true,
+        "baseUrl": ".",
+        "paths": {
+            "c/auraLWCExample": [
+                "auraLWCExample/auraLWCExample.js"
+            ],
+            "c/counterExample": [
+                "counterExample/counterExample.js"
+            ],
+            "c/counterExampleChild": [
+                "counterExampleChild/counterExampleChild.js"
+            ],
+            "c/cssExample": [
+                "cssExample/cssExample.js"
+            ],
+            "c/currentLocationFinder": [
+                "currentLocationFinder/currentLocationFinder.js"
+            ],
+            "c/currentUserWeather": [
+                "currentUserWeather/currentUserWeather.js"
+            ],
+            "c/eventExample": [
+                "eventExample/eventExample.js"
+            ],
+            "c/eventExampleChild": [
+                "eventExampleChild/eventExampleChild.js"
+            ],
+            "c/excelGenerator": [
+                "excelGenerator/excelGenerator.js"
+            ],
+            "c/excelGeneratorTabOne": [
+                "excelGeneratorTabOne/excelGeneratorTabOne.js"
+            ],
+            "c/excelGeneratorTabTwo": [
+                "excelGeneratorTabTwo/excelGeneratorTabTwo.js"
+            ],
+            "c/fetchMultipleRecords": [
+                "fetchMultipleRecords/fetchMultipleRecords.js"
+            ],
+            "c/googleTypeAhead": [
+                "googleTypeAhead/googleTypeAhead.js"
+            ],
+            "c/googleTypeAheadComponent": [
+                "googleTypeAheadComponent/googleTypeAheadComponent.js"
+            ],
+            "c/helpTextBox": [
+                "helpTextBox/helpTextBox.js"
+            ],
+            "c/practiseLookUpElement": [
+                "practiseLookUpElement/practiseLookUpElement.js"
+            ],
+            "c/pubsub": [
+                "pubsub/pubsub.js"
+            ],
+            "c/swiftbuildversiontwo": [
+                "swiftbuildversiontwo/swiftbuildversiontwo.js"
+            ],
+            "c/toastMessage": [
+                "toastMessage/toastMessage.js"
+            ]
+        }
+    },
+    "include": [
+        "**/*",
+        "../../../../.sfdx/typings/lwc/**/*.d.ts"
+    ],
+    "typeAcquisition": {
+        "include": [
+            "jest"
+        ]
+    }
+}
