@@ -1,0 +1,36 @@
+<template>
+     
+        <div class="slds-grid slds-gutters">
+                <div class="slds-col">
+                  <span>
+        
+                        <lightning-card title="LWC">
+                                <div class="slds-m-around_large">
+                         
+                                Parent Element
+                                <center>
+                                    <lightning-button label="Parent Counter" onclick={ParentMethodCall}></lightning-button>
+                                    <lightning-button label="Child Event >>>>" onclick={ChildEvent}></lightning-button>
+                                </center>
+                                Parent Variable :  {parentVar}  <br/>
+                                Event Variable : {childEvent}  <br/>
+                                Dom Variable : {domVariable}
+                                </div>
+                        
+                        
+                            </lightning-card>
+        
+        
+                  </span>
+                </div>
+                <div class="slds-col">
+                  <span>
+        
+                        <c-counter-example-child from-parent={childVar} onparent={EventDataCall}></c-counter-example-child>
+        
+                  </span>
+                </div>
+        
+              </div>
+            
+</template>

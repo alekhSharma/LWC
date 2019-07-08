@@ -1,0 +1,131 @@
+<template>
+    <div style="height: 2vh;vertical-align: super;">
+        <lightning-progress-indicator current-step={currentStep} type="base" variant="base">
+            <lightning-progress-step label="Select Object" value="1"></lightning-progress-step>
+            <lightning-progress-step label="Select File" value="2"></lightning-progress-step>
+            <lightning-progress-step label="Select External Id" value="3"></lightning-progress-step>
+            <lightning-progress-step label="Upload File" value="4"></lightning-progress-step>
+        </lightning-progress-indicator>
+    </div>
+    <div class="slds-p-horizontal_large slds-text-body_small slds-p-top_xx-large slds-text-title"
+        style="height: 52vh;vertical-align: super;">
+        <div class="slds-form" role="list">
+            <div class="slds-form-element">
+                <div class="slds-form__row">
+                    <div class="slds-form__item" role="listitem" style="vertical-align: super;display: flex;">
+                        <div class="slds-form-element slds-is-editing ">
+                            <div>
+                                <lightning-combobox name="progress" label="Step 1: Select Object" value={objvalue}
+                                    placeholder="Select object" options={objoptions} onchange={handleObjectChange}
+                                    style="text-align:left">
+                                </lightning-combobox>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slds-form__item" role="listitem" style="vertical-align: super;">
+                        <div class="slds-form-element slds-is-editing" style="width:100%;">
+                            <template if:true={objvalue}>
+                                <div>
+                                    <lightning-input type="file" class="slds-text-title " label="Step 2: Select Object"
+                                        onchange={handleChangeFile}></lightning-input>
+                                </div>
+
+                            </template>
+                        </div>
+                    </div>
+                    <div class="slds-form__item" role="listitem"
+                        style="vertical-align: super;display: flex;justify-content: center; align-content: center;text-align:center">
+                        <div class="slds-form-element slds-is-editing ">
+                            <template if:true={file}>
+                                <div>
+                                    <lightning-combobox label="Step 3: Select External Id" name="progress"
+                                        value={fieldvalue} placeholder="Select External Id" options={ExternalIdoptions}
+                                        onchange={handleExternalIdChange} style="text-align:left">
+                                    </lightning-combobox>
+                                </div>
+                            </template>
+                        </div>
+                    </div>
+                </div>
+                <div class="slds-form__row">
+                    <div class="slds-form__item slds-scrollable_y" role="listitem" style="vertical-align: super;display: flex; height:32vh;
+                            border:1px solid lightgrey; border-radius: 5px;">
+                        <lightning-card title="Status Report" style="width:100%;" class="">
+                                <table>
+                                    <tr>
+                                        <td style="width: 20%">
+                                            <b> Object Selected</b>
+                                        </td>
+                                        <td>
+                                            {ObjectSelectionStatus}
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="width: 20%">
+                                            <b>File Selected</b>
+                                        </td>
+                                        <td>
+                                            {FileSelectionStatus}
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="width: 20%">
+                                            <b>File Header</b>
+                                        </td>
+                                        <td>
+                                            {HeaderStatus}
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="width: 20%">
+                                            <b>Record Count</b>
+                                        </td>
+                                        <td>
+                                            {RecordStatus}
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <b>External Id selected</b>
+                                        </td>
+                                        <td>
+                                            {ExternalIdStatus}
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                            <td>
+                                                <b>Upload Status</b>
+                                            </td>
+                                            <td>
+                                                {UploadStatus}
+                                            </td>
+                                        </tr>
+                                    <tr>
+                                        <td>
+                                            <b>Result</b>
+                                        </td>
+                                        <td>
+                                            <ul>
+                                                <template for:each={fieldresult} for:item="field">
+                                                    <li key={field.label}>
+                                                        {field.label} {field.value}
+                                                    </li>
+                                                </template>
+                                            </ul>
+                                        </td>
+                                    </tr>
+                                </table>
+                        </lightning-card>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="slds-align_absolute-center slds-border_top slds-p-top_medium">
+        <lightning-button-group>
+            <lightning-button label="Cancel" onclick={cancel}></lightning-button>
+            <lightning-button label="Upload" variant="brand" onclick={save}></lightning-button>
+        </lightning-button-group>
+    </div>
+</template>

@@ -1,0 +1,57 @@
+<template>
+        <lightning-card icon-name="standard:address" title="Search Address">
+
+                <c-google-type-ahead onsearch={handleSearch} label="Search" placeholder="Search" onselectionchange={handleSelectionChange}>
+                    </c-google-type-ahead>
+
+                <div class="slds-form-element slds-m-around_large">
+                        <div class="slds-form-element__control">
+                        <div>
+                            <fieldset class="slds-form-element slds-form-element_compound">
+                                <legend class="slds-form-element__legend slds-form-element__label">Location</legend>
+                                <div class="slds-form-element__control">
+                                    <lightning-input label="Street" value={street}> </lightning-input>
+                                    <div class="slds-form-element__row">
+                                        <div class="slds-size_1-of-2">
+                                        <div class="slds-form-element">
+                                            <div class="slds-form-element__control">
+                                                <lightning-input label="City" value={city}>  </lightning-input>
+                                            </div>
+                                        </div>
+                                        </div>
+                                        <div class="slds-size_1-of-2">
+                                        <div class="slds-form-element">
+                                            <div class="slds-form-element__control">
+                                                <lightning-input label="State" value={state}> </lightning-input>
+                                            </div>
+                                        </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="slds-form-element__row">
+                                        <div class="slds-size_1-of-2">
+                                        <div class="slds-form-element">
+                                            <div class="slds-form-element__control">
+                                                <lightning-input label="Postal Code" value={postalCode}> </lightning-input>
+                                            </div>
+                                        </div>
+                                        </div>
+                                        <div class="slds-size_1-of-2">
+                                        <div class="slds-form-element">
+                                            <div class="slds-form-element__control">
+                                                <lightning-input label="country" value={country}> </lightning-input>
+                                            </div>
+                                        </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </fieldset>   
+                        </div>
+                        <div class="slds-align_absolute-center slds-m-top_medium">
+                            <lightning-button label="Save" onclick={saveAddress} icon-name="utility:save" icon-position="left"  variant="brand"></lightning-button>
+                        </div>
+                        </div>
+                    </div>
+                
+    </lightning-card>
+</template>

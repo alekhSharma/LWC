@@ -1,0 +1,138 @@
+<template>
+        <ul class="slds-timeline">
+                <li>
+                  <div class="slds-timeline__item_expandable slds-timeline__item_account">
+                    <span class="slds-assistive-text">task</span>
+                    <div class="slds-media">
+                      <div class="slds-media__figure">
+                            <button class="slds-button slds-button_icon">
+                                    <lightning-icon icon-name="utility:chevronright" size="x-small"></lightning-icon>     
+                                  </button>
+                        <div class="slds-icon_container slds-timeline__icon">
+                                <lightning-icon icon-name="standard:account" size="small"></lightning-icon>
+                        </div>
+                      </div>
+                        <div class="slds-media__body">
+                            <p class="slds-truncate" title="test">Basics</p> 
+                                <div class="slds-grid slds-gutters">
+                                    <div class="slds-col slds-size_1-of-3">
+                                      <span><lightning-input label="Enter ZIP"></lightning-input></span>
+                                    </div>
+                                </div>
+                        </div>
+                      </div>
+                    </div>
+                </li>   
+                 <li>
+                    <div class="slds-timeline__item_expandable slds-timeline__item_multi_select_checkbox">
+                        <span class="slds-assistive-text">task</span>
+                        <div class="slds-media">
+                        <div class="slds-media__figure">
+                                <button class="slds-button slds-button_icon">
+                                        <lightning-icon icon-name="utility:chevronright" size="x-small"></lightning-icon>     
+                                    </button>
+                            <div class="slds-icon_container slds-timeline__icon">
+                                    <lightning-icon icon-name="standard:multi_select_checkbox" size="small"></lightning-icon>
+                            </div>
+                        </div>
+                            <div class="slds-media__body">
+                                <p class="slds-truncate" title="test">What type of coverage do you need?</p> 
+                                <lightning-radio-group name="radioGroup" label="" options={radioOptions} value={radioValue} type="radio"></lightning-radio-group>
+                                <br/>
+                                <p>
+                                        Begins: <b>04/01/2019</b>  <br/>
+                                        Open enrollment has ended. You can still get coverage for this year if you have a qualifying event. If you have any questions, please contact your agent or call the number at the top of the page.
+                                </p><hr>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                        <div class="slds-timeline__item_expandable slds-timeline__item_visits">
+                          <span class="slds-assistive-text">task</span>
+                          <div class="slds-media">
+                            <div class="slds-media__figure">
+                                  <button class="slds-button slds-button_icon">
+                                          <lightning-icon icon-name="utility:chevronright" size="x-small"></lightning-icon>     
+                                        </button>
+                              <div class="slds-icon_container slds-timeline__icon">
+                                      <lightning-icon icon-name="standard:visits" size="small"></lightning-icon>
+                              </div>
+                            </div>
+                              <div class="slds-media__body">
+                                  <p class="slds-truncate" title="test">Applicant Information</p> 
+                                      <div class="slds-grid slds-gutters">
+                                          <div class="slds-col slds-size_1-of-3">
+                                            <span><lightning-input label="First Name" placeholder="Enter your first name"></lightning-input></span>
+                                          </div>
+                                          <div class="slds-col slds-size_1-of-3">
+                                                <span><lightning-input type="date" name="input1" label="Date Of Birth" ></lightning-input></span>
+                                          </div>
+                                      </div>
+                                      <div class="slds-grid slds-gutters">
+                                            <div class="slds-col slds-size_2-of-3">
+                                              <span> <p class="slds-truncate slds-m-top_small" title="test">Have you used tobacco? (within the last 6 months) </p> 
+                                                <lightning-radio-group name="radioGroup" label="" options={tabaccoRadioOptions} value={tabaccoRadioValue} type="radio"></lightning-radio-group></span>
+                                            </div>
+                                        </div>
+                              </div>
+                            </div>
+                          </div>
+                      </li>  
+                      <li>
+                            <div class="slds-timeline__item_expandable slds-timeline__item_contract">
+                              <span class="slds-assistive-text">task</span>
+                              <div class="slds-media">
+                                <div class="slds-media__figure">
+                                      <button class="slds-button slds-button_icon">
+                                              <lightning-icon icon-name="utility:chevronright" size="x-small"></lightning-icon>     
+                                            </button>
+                                  <div class="slds-icon_container slds-timeline__icon">
+                                          <lightning-icon icon-name="standard:contract" size="small"></lightning-icon>
+                                  </div>
+                                </div>
+                                  <div class="slds-media__body">
+                                      <p class="slds-truncate" title="test">Information for Cost Savings Estimate</p> 
+                                          <div class="slds-grid slds-gutters">
+                                              <div class="slds-col slds-size_2-of-3">
+                                                <span><lightning-input label="Estimated Household Income (Optional)" placeholder=""></lightning-input></span>
+                                              </div>
+                                          </div>
+                                  </div>
+                                </div>
+                              </div>
+                          </li>  
+                          <li>
+                                <div class="slds-timeline__item_expandable slds-timeline__item_customers">
+                                  <span class="slds-assistive-text">task</span>
+                                  <div class="slds-media">
+                                    <div class="slds-media__figure">
+                                          <button class="slds-button slds-button_icon">
+                                                  <lightning-icon icon-name="utility:chevronright" size="x-small"></lightning-icon>     
+                                                </button>
+                                      <div class="slds-icon_container slds-timeline__icon">
+                                              <lightning-icon icon-name="standard:customers" size="small"></lightning-icon>
+                                      </div>
+                                    </div>
+                                      <div class="slds-media__body">
+                                          <p class="slds-truncate" title="test">Who will need coverage?</p> 
+                                              <div class="slds-grid slds-gutters">
+                                                  <div class="slds-col slds-size_2-of-3">
+                                                    <span>  <lightning-radio-group name="radioGroup" label="" options={coverageRadioOptions} value={coverageRadioValue} type="radio"></lightning-radio-group></span>
+                                                  </div>
+                                                 
+                                              </div>
+                                              <p>Life plans are for primary applicant only. Dependents more than 18 years of age can buy Life plans separately.</p>
+                                              <div class="slds-m-top_medium">
+                                                    <lightning-button label="Save and Resume  Later" title="Save and Resume  Later" onclick={handleClick} class="slds-m-left_x-small"></lightning-button>
+                                                    <lightning-button variant="brand" label="Continue" title="Continue" onclick={handleClick} class="slds-m-left_x-small"></lightning-button>      
+                                              </div>
+              
+                                      </div>
+                                    </div>
+                                  </div>
+                              </li> 
+
+         </ul>
+                    
+</template>

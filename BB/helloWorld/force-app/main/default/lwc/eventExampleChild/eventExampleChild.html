@@ -1,0 +1,14 @@
+<template>
+        <lightning-card title="LWC">
+                <div class="slds-m-around_large">
+         
+                Child Element
+                <center>
+                    <lightning-button label="<<<<< Parent Method call" onclick={ParentEvent}></lightning-button>
+                    <lightning-button label="Child Method Event" onclick={ChildMethodCall}></lightning-button>
+                </center>
+                Child Variable  :  {childVar}    <br/>
+                Parent Variable :  {fromParent}
+                </div> 
+            </lightning-card>
+</template>

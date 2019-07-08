@@ -1,0 +1,39 @@
+<template>
+    <div class="slds-p-horizontal_large slds-text-body_small slds-text-title"
+        style="height: 52vh;vertical-align: super;">
+        <div class="slds-form" role="list">
+            <div class="slds-form-element">
+                <div class="slds-form__row">
+                    <div class="slds-form__item" role="listitem" style="vertical-align: super;display: flex;">
+                        <div class="slds-form-element slds-is-editing ">
+                            <div>
+                                <lightning-combobox name="progress" label="Step 1: Select Object" value={objvalue}
+                                    placeholder="Select object" options={objoptions} onchange={handleChange}
+                                    style="text-align:left">
+                                </lightning-combobox>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slds-form__item" role="listitem" style="vertical-align: super;">
+                        <div class="slds-form-element slds-is-editing" style="width:100%;">
+                            <template if:true={objvalue}>
+                                <div>
+                                    <lightning-dual-listbox name="languages" source-label="Available"
+                                        selected-label="Selected" options={options} label="Step 2: Select Fields" 
+                                        onchange={handleFieldChange}></lightning-dual-listbox>
+                                </div>
+                            </template>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  
+    <div class="slds-align_absolute-center slds-border_top slds-p-top_medium">
+        <lightning-button-group>
+            <lightning-button label="Cancel" onclick={cancel}></lightning-button>
+            <lightning-button label="Download" variant="brand" onclick={buttonclick}></lightning-button>
+        </lightning-button-group>
+    </div>
+</template>
